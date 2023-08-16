@@ -3,3 +3,5 @@ https://github.com/rafaelmoura23/PWBE-DEVTarde.git   - Backend Página de Cadast
 16/08/2023 -- 15:14
 - Protótipo da página Home no Figma concluída
 - Início do desenvolvimento do site
+
+- Inicialização do projeto do site, link para o Live Share: 
