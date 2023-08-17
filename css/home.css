@@ -19,6 +19,7 @@ body{
 
 
 .cabecalho{
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 13vh;
     background-color: #20cdff;
