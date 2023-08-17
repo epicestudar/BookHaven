@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@1,600&display=swap');
+
+
+/* ---===<Standard>===--- */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +14,37 @@
 body{
     min-height: 100vh;
 }
+
+/* ---===<Header>===--- */
+
+
+.cabecalho{
+    width: 100%;
+    height: 13vh;
+    background-color: #20cdff;
+}
+
+.cabecalho .container-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3vh;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa{
+    width: 25%;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa input{
+    padding: 3px;
+    /* width: 95%; */
+}
+
+
+
+/* ---===<Footer>===--- */
 
 footer{
     font-family: 'Inter', sans-serif;
@@ -135,4 +171,53 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
+}
+
+.recomendacoes-semana{
+    text-align: center;
+    font-size: 2em;
+}
+
+.container-recomendacoes{
+    padding: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1vh;
+    margin-bottom: 5%;
+    
+}
+.container-recomendacoes img{
+    height: 700px;
+    width: 400px;
+}
+
+.texto{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items:center;
+    margin: 15%;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    text-indent: 15px;
+}
+.texto .titulo{
+    padding: 5%;
+}
+.texto .paragrafo{
+    
+}
+
+.container-recomendacoes2{
+    margin-top: 1%;
+    padding: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1vh;
+    margin-bottom: 5%;
 }
