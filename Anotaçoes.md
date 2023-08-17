@@ -64,3 +64,27 @@ Ficção
 
 17/08 -- 13:15
 - Link do Live Share: https://prod.liveshare.vsengsaas.visualstudio.com/join?A058527A7F96C3320E15DA37820567474F5A
+
+
+                    <div class="col-md-3">
+                        <div class="event-card animate__animated animate__fadeIn">
+                            <div class="event-card animate__animated animate__fadeIn">
+                                <div class="card-body">
+                                  <img src="img/livros/o Alquimista.png alt="Poster 2" class="product-image">
+                                  <strong class="product-title">O Alquimista</strong>
+                                    <div class="product-price-container">
+                                      <span class="product-price">R$39,99</span>
+                                  <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
+                                </div>
+                              </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+<div class="container-fluid">
+    <h2 style="display: flex; justify-content: center; color: brown">MAIS VENDIDOS</h2><br>
+    <div id="cardCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
