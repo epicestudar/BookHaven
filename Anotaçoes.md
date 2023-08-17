@@ -60,3 +60,7 @@ Ficção
 - Percy Jackson a Maldição do Titã
 - Blade Runner
 - Neuromancer
+
+
+17/08 -- 13:15
+- Link do Live Share: https://prod.liveshare.vsengsaas.visualstudio.com/join?A058527A7F96C3320E15DA37820567474F5A
