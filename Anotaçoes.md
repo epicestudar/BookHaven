@@ -88,3 +88,5 @@ Ficção
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="row">
+
+-link do live share2: https://prod.liveshare.vsengsaas.visualstudio.com/join?3CF814B5144DD17E1C00283901388A365A5A

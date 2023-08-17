@@ -34,7 +34,12 @@ body{
 }
 
 .cabecalho .container-cabecalho .menu-pesquisa{
-    
+    width: 25%;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa input{
+    padding: 3px;
+    /* width: 95%; */
 }
 
 
