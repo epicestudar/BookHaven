@@ -38,11 +38,22 @@ body{
 }
 
 .cabecalho .container-cabecalho .menu-pesquisa input{
-    padding: 3px;
-    /* width: 95%; */
+    padding: 5px;
+    width: 80%;
+    border: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
+.cabecalho .container-cabecalho .menu-pesquisa button{
+    width: 40px;
+    height: 40px;
+    border: 0px;
+}
 
+.cabecalho .container-cabecalho .menu-pesquisa img{
+    width: 20px;
+}
 
 /* ---===<Footer>===--- */
 
@@ -177,15 +188,23 @@ footer{
     text-align: center;
     font-size: 2em;
 }
+.recomendacao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .container-recomendacoes{
-    padding: 15%;
+    padding: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     margin: 1vh;
     margin-bottom: 5%;
+    
     
 }
 .container-recomendacoes img{
@@ -195,7 +214,7 @@ footer{
 
 .texto{
     display: flex;
-    width: 50%;
+    width: 30%;
     justify-content: center;
     align-items:center;
     margin: 15%;
@@ -203,21 +222,47 @@ footer{
     margin-top: 1%;
     text-align: justify;
     text-indent: 15px;
+    margin-right: 3%;
 }
 .texto .titulo{
-    padding: 5%;
+    color: #5b98f5;
+    padding: 2%;
 }
 .texto .paragrafo{
     
 }
 
 .container-recomendacoes2{
-    margin-top: 1%;
-    padding: 15%;
+    
+    padding: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     margin: 1vh;
     margin-bottom: 5%;
+    
+}
+
+.container-recomendacoes2 img{
+    height: 700px;
+    width: 400px;
+}
+
+.texto2{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items:center;
+    margin: 15%;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    text-indent: 15px;
+    margin-left: 3%;
+}
+
+.texto2 .titulo{
+    color: #5b98f5;
+    padding: 2%;
 }
