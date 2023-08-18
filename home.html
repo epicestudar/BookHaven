@@ -16,7 +16,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 
-         <!-- Link de fontes para os textos -->
+    <!-- Link de fontes para os textos -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 
@@ -25,7 +25,7 @@
     <header class="cabecalho">
         <section class="container-cabecalho">
             <div class="icon-logo-card">
-                <img src="" alt="logo" class="icon-logo">   
+                <img src="" alt="logo" class="icon-logo">
                 <!-- img/icons/navIcon.png -->
             </div>
             <div class="menu-pesquisa">
@@ -57,37 +57,44 @@
     </nav>
 
     <!-- CARROSEL - IMAGEM GENERICA, TENTE COLOCAR PRA CIMA NO TOPO -->
-   <!-- CARROSEL - IMAGEM GENERICA, TENTE COLOCAR PRA CIMA NO TOPO -->
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="img/banners/carrossel1.png" alt="Primeiro Slide" style="width: 960px; height: 680px;">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/banners/carrossel2.png" alt="Segundo Slide" style="width: 960px; height: 680px;">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/banners/carrossel3.png" alt="Terceiro Slide" style="width: 960px; height: 680px;">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="img/banners/carrossel4.png" alt="Quarto Slide" style="width: 960px; height: 680px;">
-      </div>
+    <!-- CARROSEL - IMAGEM GENERICA, TENTE COLOCAR PRA CIMA NO TOPO -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/banners/carrossel1.png" alt="Primeiro Slide"
+                    style="width: 960px; height: 680px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banners/carrossel2.png" alt="Segundo Slide"
+                    style="width: 960px; height: 680px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banners/carrossel3.png" alt="Terceiro Slide"
+                    style="width: 960px; height: 680px;">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/banners/carrossel4.png" alt="Quarto Slide"
+                    style="width: 960px; height: 680px;">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
-    </a>
-  </div>
-  <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
 
     <!-- CARROSEL DE CARDS  -->
 
+    <div class="titulo-cards">
+        <h2>Mais vendidos</h2>
+    </div>
+
     <div class="container-fluid">
-        <h2 style="display: flex; justify-content: center; color: brown">MAIS VENDIDOS</h2><br>
         <div id="cardCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -96,10 +103,19 @@
                             <div class="event-card animate__animated animate__fadeIn">
                                 <div class="event-card animate__animated animate__fadeIn">
                                     <div class="card-body">
-                                        <img src="img/LIVRO.png" alt="Poster 2" class="product-image">
-                                        <strong class="product-title">TÍTULO DO LIVRO</strong>
+                                        <img src="img/livros/Harry Potter e o Cálice de Fogo.jpg" alt="Poster 2"
+                                            class="product-image"><br>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                        <strong class="product-title">Harry Potter e o Cálice de Fogo</strong> <br>
+                                        <strong class="author-title">J.K. Rowling</strong>
                                         <div class="product-price-container">
-                                            <span class="product-price">R$39,99</span>
+                                            <button class="styled-button">R$39,99</button> <br>
                                             <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
@@ -111,10 +127,19 @@
                             <div class="event-card animate__animated animate__fadeIn">
                                 <div class="event-card animate__animated animate__fadeIn">
                                     <div class="card-body">
-                                        <img src="img/LIVRO.png" alt="Poster 2" class="product-image">
-                                        <strong class="product-title">TÍTULO DO LIVRO</strong>
+                                        <img src="img/livros/Percy Jackson a Maldição do Titã.jpg" alt="Poster 2"
+                                            class="product-image"><br>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                        <strong class="product-title">Percy Jackson: a Maldição do Titã</strong> <br>
+                                        <strong class="author-title">Rick Riordan</strong>
                                         <div class="product-price-container">
-                                            <span class="product-price">R$39,99</span>
+                                            <button class="styled-button">R$39,99</button> <br>
                                             <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
@@ -126,10 +151,19 @@
                             <div class="event-card animate__animated animate__fadeIn">
                                 <div class="event-card animate__animated animate__fadeIn">
                                     <div class="card-body">
-                                        <img src="img/LIVRO.png" alt="Poster 2" class="product-image">
-                                        <strong class="product-title">TÍTULO DO LIVRO</strong>
+                                        <img src="img/livros/O Pequeno Principe.jpg" alt="Poster 2"
+                                            class="product-image" height="510px"><br>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                        <strong class="product-title">Pequeno Príncipe</strong> <br>
+                                        <strong class="author-title">Antoine de Saint-Exupéry</strong>
                                         <div class="product-price-container">
-                                            <span class="product-price">R$39,99</span>
+                                            <button class="styled-button">R$39,99</button> <br>
                                             <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
@@ -141,10 +175,19 @@
                             <div class="event-card animate__animated animate__fadeIn">
                                 <div class="event-card animate__animated animate__fadeIn">
                                     <div class="card-body">
-                                        <img src="img/LIVRO.png" alt="Poster 2" class="product-image">
-                                        <strong class="product-title">TÍTULO DO LIVRO</strong>
+                                        <img src="img/livros/o Alquimista.png" alt="Poster 2" class="product-image"
+                                            height="510px"><br>
+                                        <div class="rating">
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                            <span class="star">&#9733;</span>
+                                        </div>
+                                        <strong class="product-title">O Alquimista</strong> <br>
+                                        <strong class="author-title">Paulo Coelho</strong>
                                         <div class="product-price-container">
-                                            <span class="product-price">R$39,99</span>
+                                            <button class="styled-button">R$39,99</button> <br>
                                             <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
@@ -170,10 +213,19 @@
                             <div class="event-card animate__animated animate__fadeIn">
                                 <div class="event-card animate__animated animate__fadeIn">
                                     <div class="card-body">
-                                        <img src="img/LIVRO.png" alt="Poster 2" class="product-image">
-                                        <strong class="product-title">TÍTULO DO LIVRO</strong>
+                                        <img src="img/livros/O Codigo Da Vinci.png" alt="Poster 2" class="product-image"
+                                            height="510px"> <br>
+                                            <div class="rating">
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                            </div>
+                                        <strong class="product-title">O Código da Vinci</strong> <br>
+                                        <strong class="author-title">Dan Brown</strong>
                                         <div class="product-price-container">
-                                            <span class="product-price">R$39,99</span>
+                                            <button class="styled-button">R$39,99</button> <br>
                                             <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
@@ -185,10 +237,19 @@
                             <div class="event-card animate__animated animate__fadeIn">
                                 <div class="event-card animate__animated animate__fadeIn">
                                     <div class="card-body">
-                                        <img src="img/LIVRO.png" alt="Poster 2" class="product-image">
-                                        <strong class="product-title">TÍTULO DO LIVRO</strong>
+                                        <img src="img/livros/Sobrevivendo no Inferno.jpg" alt="Poster 2"
+                                            class="product-image" height="510px"> <br>
+                                            <div class="rating">
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                            </div>
+                                        <strong class="product-title">Sobrevivendo no Inferno</strong> <br>
+                                        <strong class="author-title">Acauam Oliveira</strong>
                                         <div class="product-price-container">
-                                            <span class="product-price">R$39,99</span>
+                                            <button class="styled-button">R$39,99</button> <br>
                                             <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
@@ -200,10 +261,72 @@
                             <div class="event-card animate__animated animate__fadeIn">
                                 <div class="event-card animate__animated animate__fadeIn">
                                     <div class="card-body">
-                                        <img src="img/LIVRO.png" alt="Poster 2" class="product-image">
-                                        <strong class="product-title">TÍTULO DO LIVRO</strong>
+                                        <img src="img/livros/Um Conto de Duas Cidades.png" alt="Poster 2"
+                                            class="product-image" height="510px"> <br>
+                                            <div class="rating">
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                            </div>
+                                        <strong class="product-title">Um Conto de Duas Cidades</strong> <br>
+                                        <strong class="author-title">Charles Dickens</strong>
                                         <div class="product-price-container">
-                                            <span class="product-price">R$39,99</span>
+                                            <button class="styled-button">R$39,99</button> <br>
+                                            <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="event-card animate__animated animate__fadeIn">
+                                <div class="event-card animate__animated animate__fadeIn">
+                                    <div class="card-body">
+                                        <img src="img/livros/Vidas Secas.jpg" alt="Poster 2" class="product-image"
+                                            height="510px"> <br>
+                                            <div class="rating">
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                            </div>
+                                        <strong class="product-title">Vidas Secas</strong> <br>
+                                        <strong class="author-title">Graciliano Ramos</strong>
+                                        <div class="product-price-container">
+                                            <button class="styled-button">R$39,99</button> <br>
+                                            <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="event-card animate__animated animate__fadeIn">
+                                <div class="event-card animate__animated animate__fadeIn">
+                                    <div class="card-body">
+                                        <img src="img/livros/Harry Potter Pedra Filosofal.png" alt="Poster 2" class="product-image"
+                                            height="510px"> <br>
+                                            <div class="rating">
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                            </div>
+                                        <strong class="product-title">Harry Potter e a Pedra Filosofal</strong> <br>
+                                        <strong class="author-title">J.K. Rowling</strong>
+                                        <div class="product-price-container">
+                                            <button class="styled-button">R$39,99</button> <br>
                                             <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
@@ -215,10 +338,66 @@
                             <div class="event-card animate__animated animate__fadeIn">
                                 <div class="event-card animate__animated animate__fadeIn">
                                     <div class="card-body">
-                                        <img src="img/LIVRO.png" alt="Poster 2" class="product-image">
-                                        <strong class="product-title">TÍTULO DO LIVRO</strong>
+                                        <img src="img/livros/Os Sete Maridos.jpg" alt="Poster 2"
+                                            class="product-image" height="510px"> <br>
+                                            <div class="rating">
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                            </div>
+                                        <strong class="product-title">Os sete Maridos</strong> <br>
+                                        <strong class="author-title">Taylor Jenkins Reid</strong>
                                         <div class="product-price-container">
-                                            <span class="product-price">R$39,99</span>
+                                            <button class="styled-button">R$39,99</button> <br>
+                                            <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="event-card animate__animated animate__fadeIn">
+                                <div class="event-card animate__animated animate__fadeIn">
+                                    <div class="card-body">
+                                        <img src="img/livros/Um Conto de Duas Cidades.png" alt="Poster 2"
+                                            class="product-image" height="510px"> <br>
+                                            <div class="rating">
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                            </div>
+                                        <strong class="product-title">Blade Runner</strong> <br>
+                                        <strong class="author-title">Philip K. Dick</strong>
+                                        <div class="product-price-container">
+                                            <button class="styled-button">R$39,99</button> <br>
+                                            <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="event-card animate__animated animate__fadeIn">
+                                <div class="event-card animate__animated animate__fadeIn">
+                                    <div class="card-body">
+                                        <img src="img/livros/Vidas Secas.jpg" alt="Poster 2" class="product-image"
+                                            height="510px"> <br>
+                                            <div class="rating">
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                                <span class="star">&#9733;</span>
+                                            </div>
+                                        <strong class="product-title">Auto da Compadecida</strong> <br>
+                                        <strong class="author-title">Ariano Suassuna</strong>
+                                        <div class="product-price-container">
+                                            <button class="styled-button">R$39,99</button> <br>
                                             <a href="#" class="button-hover-background">Adicionar ao carrinho</a>
                                         </div>
                                     </div>
@@ -257,33 +436,67 @@
             <img src="img/livros/Blade Runner.jpg" alt=""> <!-- Colocar a imagem do livro aqui -->
             <section class="texto">
                 <h2 class="titulo">título do livro</h2>
-                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sequi, quas natus itaque
-                    reiciendis cum nostrum ab similique soluta, eos officiis excepturi? Obcaecati fugiat nam sunt placeat
-                    sed voluptas repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex rem libero
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sequi, quas natus
+                    itaque
+                    reiciendis cum nostrum ab similique soluta, eos officiis excepturi? Obcaecati fugiat nam sunt
+                    placeat
+                    sed voluptas repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex rem
+                    libero
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia neque amet eos consequatur
-                    exercitationem, repellat, ut quis odio facilis nemo earum recusandae tempora facere modi dolore mollitia
-                    hic in aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quibusdam labore molestiae, adipisci libero at excepturi laborum, soluta fugit ex culpa voluptate delectus in autem nobis voluptatum et rerum ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere ipsum omnis ipsa, iste eveniet ex laudantium nemo asperiores perspiciatis at assumenda impedit deserunt molestiae quia molestias iure vero ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eius cumque consectetur nihil nisi, recusandae corporis mollitia repellendus ducimus rerum enim molestias ea veniam, tenetur ex. Cumque doloribus cupiditate dolore. lorem
+                    exercitationem, repellat, ut quis odio facilis nemo earum recusandae tempora facere modi dolore
+                    mollitia
+                    hic in aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quibusdam labore
+                    molestiae, adipisci libero at excepturi laborum, soluta fugit ex culpa voluptate delectus in autem
+                    nobis voluptatum et rerum ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere
+                    ipsum omnis ipsa, iste eveniet ex laudantium nemo asperiores perspiciatis at assumenda impedit
+                    deserunt molestiae quia molestias iure vero ducimus? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Animi, eius cumque consectetur nihil nisi, recusandae corporis mollitia
+                    repellendus ducimus rerum enim molestias ea veniam, tenetur ex. Cumque doloribus cupiditate dolore.
+                    lorem
                 </p>
             </section>
         </div>
-    
+
         <div class="container-recomendacoes2">
-    
+
             <section class="texto2">
                 <h2 class="titulo">título do livro</h2>
-                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sequi, quas natus itaque
-                    reiciendis cum nostrum ab similique soluta, eos officiis excepturi? Obcaecati fugiat nam sunt placeat
-                    sed voluptas repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex rem libero
+                <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sequi, quas natus
+                    itaque
+                    reiciendis cum nostrum ab similique soluta, eos officiis excepturi? Obcaecati fugiat nam sunt
+                    placeat
+                    sed voluptas repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ex rem
+                    libero
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia neque amet eos consequatur
-                    exercitationem, repellat, ut quis odio facilis nemo earum recusandae tempora facere modi dolore mollitia
-                    hic in aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quibusdam labore molestiae, adipisci libero at excepturi laborum, soluta fugit ex culpa voluptate delectus in autem nobis voluptatum et rerum ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere ipsum omnis ipsa, iste eveniet ex laudantium nemo asperiores perspiciatis at assumenda impedit deserunt molestiae quia molestias iure vero ducimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eius cumque consectetur nihil nisi, recusandae corporis mollitia repellendus ducimus rerum enim molestias ea veniam, tenetur ex. Cumque doloribus cupiditate dolore. lorem
+                    exercitationem, repellat, ut quis odio facilis nemo earum recusandae tempora facere modi dolore
+                    mollitia
+                    hic in aut. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quibusdam labore
+                    molestiae, adipisci libero at excepturi laborum, soluta fugit ex culpa voluptate delectus in autem
+                    nobis voluptatum et rerum ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facere
+                    ipsum omnis ipsa, iste eveniet ex laudantium nemo asperiores perspiciatis at assumenda impedit
+                    deserunt molestiae quia molestias iure vero ducimus? Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Animi, eius cumque consectetur nihil nisi, recusandae corporis mollitia
+                    repellendus ducimus rerum enim molestias ea veniam, tenetur ex. Cumque doloribus cupiditate dolore.
+                    lorem
                 </p>
             </section>
-    
+
             <img src="img/livros/Blade Runner.jpg" alt=""> <!-- Colocar a imagem do livro aqui -->
         </div>
-    
+
     </section>
+
+    <!-- Avaliações dos Clientes -->
+    <div class="titulo-avaliacoes">
+        <h2>Avaliações dos nossos Clientes</h2>
+    </div>
+
+    <div class="container-avaliacoes">
+        <div class="linha-avaliacoes">
+            
+        </div>
+    </div>
+
     <!-- Rodapé do site -->
     <footer>
         <div id="footer_content">

@@ -56,6 +56,159 @@ body{
     width: 20px;
 }
 
+/* ---===<Cards dos Mais Vendidos>===--- */
+.titulo-cards{
+    margin-top: 5%;
+    display: flex; 
+    justify-content: center; 
+    color: rgb(8, 8, 8)
+}
+.author-title{
+    color: #7f37c9;
+    font-size: 0.8vw;
+}
+.card-body .product-title, .author-title{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    color: rgb(209, 209, 5);
+  }
+  
+  .star {
+    margin: 0 2px; /* Espaçamento entre as estrelas */
+  }
+
+  .styled-button {
+    margin-top: 5%;
+    background-color: #69b8e3;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .styled-button:hover {
+    background-color: #489dd2;
+    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+.product-price{
+    background-color: #78d2e9;
+    border-radius: 0px 4px 0px 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.125rem;
+    padding: 0px 0.25rem;
+    color: #fff;
+    transition: all 0.5 ease;
+}
+.product-price [type="button"]:hover{
+    background: #c1ac9c;
+}
+
+/* ---===<Recomendações da Semana>===--- */
+
+.recomendacoes-semana{
+    text-align: center;
+    font-size: 2em;
+}
+.recomendacao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-recomendacoes{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1vh;
+    margin-bottom: 5%;
+    
+    
+}
+.container-recomendacoes img{
+    height: 700px;
+    width: 400px;
+}
+
+.texto{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items:center;
+    margin: 15%;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    text-indent: 15px;
+    margin-right: 3%;
+}
+.texto .titulo{
+    color: #5b98f5;
+    padding: 2%;
+}
+
+.container-recomendacoes2{
+    
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1vh;
+    margin-bottom: 5%;
+    
+}
+
+.container-recomendacoes2 img{
+    height: 700px;
+    width: 400px;
+}
+
+.texto2{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items:center;
+    margin: 15%;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    text-indent: 15px;
+    margin-left: 3%;
+}
+
+.texto2 .titulo{
+    color: #5b98f5;
+    padding: 2%;
+}
+
+/* ---===<Avaliações dos clientes>===--- */
+.titulo-avaliacoes{
+    text-align: center;
+    font-size: 0.8em;
+}
+
 /* ---===<Footer>===--- */
 
 footer{
@@ -183,87 +336,4 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
-}
-
-.recomendacoes-semana{
-    text-align: center;
-    font-size: 2em;
-}
-.recomendacao {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.container-recomendacoes{
-    padding: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 1vh;
-    margin-bottom: 5%;
-    
-    
-}
-.container-recomendacoes img{
-    height: 700px;
-    width: 400px;
-}
-
-.texto{
-    display: flex;
-    width: 30%;
-    justify-content: center;
-    align-items:center;
-    margin: 15%;
-    flex-direction: column;
-    margin-top: 1%;
-    text-align: justify;
-    text-indent: 15px;
-    margin-right: 3%;
-}
-.texto .titulo{
-    color: #5b98f5;
-    padding: 2%;
-}
-.texto .paragrafo{
-    
-}
-
-.container-recomendacoes2{
-    
-    padding: 3%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin: 1vh;
-    margin-bottom: 5%;
-    
-}
-
-.container-recomendacoes2 img{
-    height: 700px;
-    width: 400px;
-}
-
-.texto2{
-    display: flex;
-    width: 30%;
-    justify-content: center;
-    align-items:center;
-    margin: 15%;
-    flex-direction: column;
-    margin-top: 1%;
-    text-align: justify;
-    text-indent: 15px;
-    margin-left: 3%;
-}
-
-.texto2 .titulo{
-    color: #5b98f5;
-    padding: 2%;
 }
