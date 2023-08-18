@@ -1,0 +1,38 @@
+<div class="field">
+                                <div class="control">
+                                <input type="text" class="form-control" onkeypress="$(this).mask('000.000.000-00');" placeholder="CPF">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input name="cep" type="text" class="form-control" onkeypress="$(this).mask('00.000-000')" placeholder="CEP">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input name="rua" type="text" id="pRua" class="input is-large" placeholder="Rua">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input name="bairro" type="text" id="pBairro" class="input is-large" placeholder="Bairro">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input name="cidade" type="text" id="pCidade" class="input is-large" placeholder="Cidade">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input name="estado" type="text" id="pEstado" class="input is-large" placeholder="Estado">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input name="numero" type="text" id="pNumero" class="input is-large" placeholder="Número">
+                                </div>
+                            </div>
+
+
+

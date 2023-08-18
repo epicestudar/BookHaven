@@ -1,0 +1,20 @@
+body{
+    background-image: url(https://images6.alphacoders.com/389/389877.jpg);
+}
+
+#box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #9b6b28;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(21, 21, 21);
+    float: center;
+    opacity: 97%;
+}
+
