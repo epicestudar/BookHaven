@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@1,600&display=swap');
+
+
+/* ---===<Standard>===--- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* ---===<Header>===--- */
+
+
+.cabecalho{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 13vh;
+    background-color: #20cdff;
+}
+
+.cabecalho .container-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3vh;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa{
+    width: 25%;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa input{
+    padding: 5px;
+    width: 80%;
+    border: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa button{
+    width: 40px;
+    height: 40px;
+    border: 0px;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa img{
+    width: 20px;
+}
+
+/* ---===<Cards dos Mais Vendidos>===--- */
+.titulo-cards{
+    margin-top: 5%;
+    display: flex; 
+    justify-content: center; 
+    color: rgb(8, 8, 8)
+}
+.author-title{
+    color: #7f37c9;
+    font-size: 0.8vw;
+}
+.card-body .product-title, .author-title{
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+    color: rgb(209, 209, 5);
+  }
+  
+  .star {
+    margin: 0 2px; /* Espaçamento entre as estrelas */
+  }
+
+  .styled-button {
+    margin-top: 5%;
+    background-color: #69b8e3;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .styled-button:hover {
+    background-color: #489dd2;
+    
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+.product-price{
+    background-color: #78d2e9;
+    border-radius: 0px 4px 0px 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.125rem;
+    padding: 0px 0.25rem;
+    color: #fff;
+    transition: all 0.5 ease;
+}
+.product-price [type="button"]:hover{
+    background: #c1ac9c;
+}
+
+/* ---===<Recomendações da Semana>===--- */
+
+.recomendacoes-semana{
+    text-align: center;
+    font-size: 2em;
+}
+.recomendacao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-recomendacoes{
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1vh;
+    margin-bottom: 5%;
+    
+    
+}
+.container-recomendacoes img{
+    height: 700px;
+    width: 400px;
+}
+
+.texto{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items:center;
+    margin: 15%;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    text-indent: 15px;
+    margin-right: 3%;
+}
+.texto .titulo{
+    color: #5b98f5;
+    padding: 2%;
+}
+
+.container-recomendacoes2{
+    
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1vh;
+    margin-bottom: 5%;
+    
+}
+
+.container-recomendacoes2 img{
+    height: 700px;
+    width: 400px;
+}
+
+.texto2{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items:center;
+    margin: 15%;
+    flex-direction: column;
+    margin-top: 1%;
+    text-align: justify;
+    text-indent: 15px;
+    margin-left: 3%;
+}
+
+.texto2 .titulo{
+    color: #5b98f5;
+    padding: 2%;
+}
+
+/* ---===<Avaliações dos clientes>===--- */
+.titulo-avaliacoes{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/* ---===<Footer>===--- */
+
+footer{
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+}
+
+#footer_content{
+    background-color: #171717;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h2{
+    margin-bottom: 0.75rem;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+#footer_social_media .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #f5f5f5;
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook{
+    background-color: #4267b3;
+}
+
+#twitter{
+    background-color: #3E8AFF;
+}
+
+.footer-link{
+    text-decoration: none;
+}
+
+#footer_social_media .footer-link:hover{
+    opacity: 0.8;
+}
+#footer_social_media .footer-link i{
+    font-size: 1.2rem;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+.footer-list .footer-link{
+    color: #a8a29e;
+    transition: all 0.4s;
+}
+.footer-list .footer-link:hover{
+    color: #7f37c9;
+}
+#footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+#footer_subscribe p{
+    color: #a8a29e;
+}
+
+#input_group{
+    display: flex;
+    align-items: center;
+    background-color: 4px;
+    border-radius: 4px;
+}
+#input_group input{
+    padding: 0.75rem;
+    width: 100%;
+}
+#input_group button{
+    background-color: #7f37c9;
+    border: none;
+    color: #f5f5f5;
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+#input_group:hover{
+    opacity: 0.8s;
+}
+
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: #0e0c0c;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+@media screen and (max-width: 768px) {
+    #footer_content{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
