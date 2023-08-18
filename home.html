@@ -20,22 +20,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <!-- Cabeçalho do site -->
-    <header class="cabecalho">
-        <section class="container-cabecalho">
-            <div class="icon-logo-card">
-                <img src="" alt="logo" class="icon-logo">
-                <!-- img/icons/navIcon.png -->
-            </div>
-            <div class="menu-pesquisa">
-                <input type="search" placeholder="Pesquise seu livro">
-                <button><img src="img/icons/procurar.png" alt="Search_Icon"></button>
-            </div>
-            <div class="cadastro">
-                <img src="" alt="conta-icon">
-                <p>Olá, faça seu login ou cadastro</p>
-            </div>
+<body><header class="container-header">
+        <section class="cabecalho">
+            <section class="container-cabecalho">
+                <div class="icon-logo-card">
+                    <img src="img/icons/navIcon.png" alt="logo" class="icon-logo">
+                    <!-- img/icons/navIcon.png -->
+                </div>
+                <div class="menu-pesquisa">
+                    <input type="search" name="search_input" id="search_input" placeholder="Pesquisar...">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="cadastro">
+                    <img src="" alt="conta-icon">
+                    <span>Olá, faça seu <a href="">login</a> ou <a href="">cadastro</a></span>
+                </div>
+            </section>
             <div class="link-menu">
                 <a href="">Home</a>
                 <a href="">Livros</a>
@@ -43,18 +43,24 @@
                 <a href="">Contato</a>
             </div>
         </section>
+        <nav class="navMenu">
+            <section class="categorias-container">
+                <div class="cat-links">
+                    <a href="" class="menu-categorias-link">Mais Vendidos</a>
+                    <a href="" class="menu-categorias-link">Literatura Brasileira</a>
+                    <a href="" class="menu-categorias-link">Literatura Infátil</a>
+                    <a href="" class="menu-categorias-link">Romance</a>
+                    <a href="" class="menu-categorias-link">Ficção</a>
+                    <a href="" class="menu-categorias-link">Terror</a>
+                    <a href="" class="menu-categorias-link">Aventura</a>
+                </div>
+                <div class="car-fav">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-cart-shopping"></i>
+                </div>
+            </section>
+        </nav>
     </header>
-    <nav>
-        <section class="categorias-container">
-            <a href="" class="menu-categorias-link">Mais Vendidos</a>
-            <a href="" class="menu-categorias-link">Literatura Brasileira</a>
-            <a href="" class="menu-categorias-link">Literatura Infátil</a>
-            <a href="" class="menu-categorias-link">Romance</a>
-            <a href="" class="menu-categorias-link">Ficção</a>
-            <a href="" class="menu-categorias-link">Terror</a>
-            <a href="" class="menu-categorias-link">Aventura</a>
-        </section>
-    </nav>
 
     <!-- CARROSEL - IMAGEM GENERICA, TENTE COLOCAR PRA CIMA NO TOPO -->
     <!-- CARROSEL - IMAGEM GENERICA, TENTE COLOCAR PRA CIMA NO TOPO -->
