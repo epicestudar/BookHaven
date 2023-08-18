@@ -17,43 +17,134 @@ body{
 
 /* ---===<Header>===--- */
 
+.container-header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 10px 10px 20px rgb(74, 74, 74);
+}
 
 .cabecalho{
-    font-family: 'Poppins', sans-serif;
     width: 100%;
-    height: 13vh;
+    height: 19vh;
     background-color: #20cdff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .cabecalho .container-cabecalho{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 3vh;
+    flex-direction: row;
+    align-items: center;  
+    width: 100%;  
 }
 
+.cabecalho .container-cabecalho .icon-logo-card img
+{
+    width: 200px;
+}
+.cadastro{
+    display: flex;
+    align-items: center;
+}
+
+.cadastro a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
+
+.cadastro a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.cadastro span{
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+
 .cabecalho .container-cabecalho .menu-pesquisa{
-    width: 25%;
+    width: 75vh;
+    background-color:#0e9fc7;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cabecalho .container-cabecalho .menu-pesquisa input{
     padding: 5px;
-    width: 80%;
+    width: 86%;
     border: 0px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
 
-.cabecalho .container-cabecalho .menu-pesquisa button{
-    width: 40px;
-    height: 40px;
-    border: 0px;
+.cabecalho .container-cabecalho .menu-pesquisa i{
+    padding: 5px;
+    padding-right: 25px;
 }
 
-.cabecalho .container-cabecalho .menu-pesquisa img{
-    width: 20px;
+.cabecalho .link-menu{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cabecalho .link-menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+
+.cabecalho .link-menu a:hover{
+    color: yellow;
+}
+
+.navMenu{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    font-weight: 400;
+}
+
+.categorias-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.car-fav{
+    padding: 10px;
+}
+
+.car-fav i{
+    padding: 10px;
+}
+
+.navMenu .cat-links a{
+    padding: 10px;
+    height: 100%;
+    color: black;
+    transition: all 200ms ease-in-out;
+}
+
+.navMenu .cat-links a:hover{
+    background-color:   rgb(229, 229, 229);
+    text-decoration: none;
 }
 
 /* ---===<Cards dos Mais Vendidos>===--- */
@@ -207,6 +298,41 @@ body{
 .titulo-avaliacoes{
     text-align: center;
     font-size: 0.8em;
+}
+.cards-avaliacoes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+}
+.card-avaliacao{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 40px;
+
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.171);
+}
+.card-avaliacao h3{
+    font-family: Rubik;
+    margin-bottom: 5px;
+}
+.card-avaliacao p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.card-avaliacao .user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.card-avaliacao .star-user{
+    width: 20px;
 }
 
 /* ---===<Footer>===--- */
