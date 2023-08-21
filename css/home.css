@@ -316,6 +316,11 @@ body{
     color: #6A6D78;
     font-size: 1.31rem;
   }
+  .containerProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   @media screen and (max-width: 900px) {
     .wrapper .carouselProducts {
