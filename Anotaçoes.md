@@ -66,3 +66,7 @@ Ficção
 - Link do Live Share: https://prod.liveshare.vsengsaas.visualstudio.com/join?A058527A7F96C3320E15DA37820567474F5A
 
 -link do live share2: https://prod.liveshare.vsengsaas.visualstudio.com/join?3CF814B5144DD17E1C00283901388A365A5A
+
+
+21/08 -- 13:45
+- Link do LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?024B6301ED06B46E4F63D208DCA3B964884C
