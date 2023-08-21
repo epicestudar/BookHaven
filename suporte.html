@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suporte</title>
     <link rel="stylesheet" href="css/suporte.css">
-    <!-- Link importado para os ícones das redes sociais do footer -->
+    <!-- Link importado para os ícones da página-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Link Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -20,197 +21,195 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
 </head>
 
-<header class="container-header">
-    <section class="cabecalho">
-        <section class="container-cabecalho">
-            <div class="icon-logo-card">
-                <img src="img/icons/navIcon.png" alt="logo" class="icon-logo">
-                <!-- img/icons/navIcon.png -->
-            </div>
-            <div class="menu-pesquisa">
-                <input type="search" name="search_input" id="search_input" placeholder="Pesquisar...">
-                <i class="fa fa-search"></i>
-            </div>
-            <div class="cadastro">
-                <img src="img/icons/user.png" alt="conta-icon">
-                <span>Olá, faça seu <a href="">login</a> ou <a href="">cadastro</a></span>
-            </div>
-        </section>
-        <div class="link-menu">
-            <a href="home.html">Home</a>
-            <a href="">Livros</a>
-            <a href="suporte.html">Suporte</a>
-            <a href="">Contato</a>
-        </div>
-    </section>
-    <nav class="navMenu">
-        <section class="categorias-container">
-            <div class="cat-links">
-                <a href="" class="menu-categorias-link">Mais Vendidos</a>
-                <a href="" class="menu-categorias-link">|</a>
-                <a href="" class="menu-categorias-link">Literatura Brasileira</a>
-                <a href="" class="menu-categorias-link">|</a>
-                <a href="" class="menu-categorias-link">Literatura Infátil</a>
-                <a href="" class="menu-categorias-link">|</a>
-                <a href="" class="menu-categorias-link">Romance</a>
-                <a href="" class="menu-categorias-link">|</a>
-                <a href="" class="menu-categorias-link">Ficção</a>
-                <a href="" class="menu-categorias-link">|</a>
-                <a href="" class="menu-categorias-link">Terror</a>
-                <a href="" class="menu-categorias-link">|</a>
-                <a href="" class="menu-categorias-link">Aventura</a>
-            </div>
-            <div class="car-fav">
-                <a href=""><i class="fa-regular fa-heart"></i></a>
-                <a href=""><i class="ri-shopping-cart-line"></i></a>
-            </div>
-        </section>
-    </nav>
-</header>
-
-<section class="container-faq">
-    <div class="container">
-        <div class="title-faq">
-            <h1>FAQ</h1>
-            <h3>Perguntas básicas que nossos clientes fazem:</h3>
-        </div>
-        <div class="accordion">
-            <div class="accordion-item" id="question1">
-                <a class="accordion-link" href="#question1">
-                    Quais são as formas de pagamento?
-                    <i class="icon ion-md-add"></i>
-                    <i class="icon ion-md-remove"></i>
-                </a>
-                <div class="answer">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea similique exercitationem dolor repellendus quis voluptatibus tenetur iure in consequatur, impedit illo minima maxime praesentium ex, dolore possimus corrupti numquam blanditiis.
-                    </p>
-                </div>
-            </div>
-
-            <div class="accordion-item" id="question2">
-                <a class="accordion-link" href="#question2">
-                    Poço cadastrar os produtos?
-                    <i class="icon ion-md-add"></i>
-                    <i class="icon ion-md-remove"></i>
-                </a>
-                <div class="answer">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum perspiciatis sequi, ex nostrum impedit, deserunt dolores ullam ipsum distinctio provident omnis optio dignissimos ratione laborum ut. Ipsum, odit? Itaque, repudiandae.
-                    </p>
-                </div>
-            </div>
-
-            <div class="accordion-item" id="question3">
-                <a class="accordion-link" href="#question3">
-                    Vocês oferecem frete grátis?
-                    <i class="icon ion-md-add"></i>
-                    <i class="icon ion-md-remove"></i>
-                </a>
-                <div class="answer">
-                    <p>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores molestias doloribus corrupti tempore cupiditate. Nihil rerum et dignissimos adipisci totam temporibus tempora, quis incidunt nisi assumenda, distinctio praesentium, molestiae earum!
-                    </p>
-                </div>
-            </div>
-
-            <div class="accordion-item" id="question4">
-                <a class="accordion-link" href="#question4">
-                    Como posso rastrear meu pedido?
-                    <i class="icon ion-md-add"></i>
-                    <i class="icon ion-md-remove"></i>
-                </a>
-                <div class="answer">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quae doloremque dolor quis, iure molestiae velit quisquam unde exercitationem beatae ea incidunt magni reprehenderit. Sequi commodi iusto cupiditate explicabo sunt?
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<footer>
-    <div id="footer_content">
-        <div id="footer_contacts">
-            <h2>BookHaven</h2>
-            <p>Onde sonhos ganham forma!</p>
-
-            <div id="footer_social_media">
-                <a href="https://www.instagram.com" class="footer-link" id="instagram">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-
-                <a href="https://twitter.com" class="footer-link" id="twitter">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-
-                <a href="https://facebook.com" class="footer-link" id="facebook">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </div>
-
-
-        </div>
-
-        <ul class="footer-list">
-            <li>
-                <h3>Fale Conosco</h3>
-            </li>
-
-            <li>
-                <a href="" class="footer-link">SAC</a>
-            </li>
-
-            <li>
-                <a href="#" class="footer-link">Suporte</a>
-            </li>
-
-            <li>
-                <a href="#" class="footer-link">Contatos</a>
-            </li>
-        </ul>
-
-        <ul class="footer-list">
-            <li>
-                <h3>Produtos</h3>
-            </li>
-
-            <li>
-                <a href="#" class="footer-link">Categorias</a>
-            </li>
-
-            <li>
-                <a href="#" class="footer-link">Mais Recentes</a>
-            </li>
-
-            <li>
-                <a href="#" class="footer-link">Mais Vendidos</a>
-            </li>
-        </ul>
-
-        <div id="footer_subscribe">
-            <h3>Inscreva-se</h3>
-            <p>Coloque o seu email para ser notificado sobre nossos novos livros</p>
-
-            <div id="input_group">
-                <input type="email" id="email">
-                <button><i class="fa-regular fa-envelope"></i></button>
-            </div>
-        </div>
-
-    </div>
-
-    <div id="footer_copyright">
-        BookHaven &#169
-        2023 all rights reserved
-    </div>
-</footer>
-
 
 <body>
 
-
+    <header class="container-header">
+        <section class="cabecalho">
+            <section class="container-cabecalho">
+                <div class="icon-logo-card">
+                    <img src="img/icons/navIcon.png" alt="logo" class="icon-logo">
+                    <!-- img/icons/navIcon.png -->
+                </div>
+                <div class="menu-pesquisa">
+                    <input type="search" name="search_input" id="search_input" placeholder="Pesquisar...">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="cadastro">
+                    <img src="img/icons/user.png" alt="conta-icon">
+                    <span>Olá, faça seu <a href="">login</a> ou <a href="">cadastro</a></span>
+                </div>
+            </section>
+            <div class="link-menu">
+                <a href="home.html">Home</a>
+                <a href="">Livros</a>
+                <a href="suporte.html">Suporte</a>
+                <a href="">Contato</a>
+            </div>
+        </section>
+        <nav class="navMenu">
+            <section class="categorias-container">
+                <div class="cat-links">
+                    <a href="" class="menu-categorias-link">Mais Vendidos</a>
+                   <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Literatura Brasileira</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Literatura Infátil</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Romance</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Ficção</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Terror</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Aventura</a>
+                </div>
+                <div class="car-fav">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="ri-shopping-cart-line"></i></a>
+                </div>
+            </section>
+        </nav>
+    </header>
+    
+    <section class="container-faq">
+        <div class="container">
+            <div class="title-faq">
+                <h1>FAQ</h1>
+                <h3>Perguntas básicas que nossos clientes fazem:</h3>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item" id="question1">
+                    <a class="accordion-link" href="#question1">
+                        Quais são as formas de pagamento?
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea similique exercitationem dolor repellendus quis voluptatibus tenetur iure in consequatur, impedit illo minima maxime praesentium ex, dolore possimus corrupti numquam blanditiis.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="accordion-item" id="question2">
+                    <a class="accordion-link" href="#question2">
+                        Posso cadastrar os produtos?
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum perspiciatis sequi, ex nostrum impedit, deserunt dolores ullam ipsum distinctio provident omnis optio dignissimos ratione laborum ut. Ipsum, odit? Itaque, repudiandae.
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="accordion-item" id="question3">
+                    <a class="accordion-link" href="#question3">
+                        Vocês oferecem frete grátis?
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores molestias doloribus corrupti tempore cupiditate. Nihil rerum et dignissimos adipisci totam temporibus tempora, quis incidunt nisi assumenda, distinctio praesentium, molestiae earum!
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="accordion-item" id="question4">
+                    <a class="accordion-link" href="#question4">
+                        Como posso rastrear meu pedido?
+                        <i class="icon ion-md-add"></i>
+                        <i class="icon ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quae doloremque dolor quis, iure molestiae velit quisquam unde exercitationem beatae ea incidunt magni reprehenderit. Sequi commodi iusto cupiditate explicabo sunt?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <h2>BookHaven</h2>
+                <p>Onde sonhos ganham forma!</p>
+    
+                <div id="footer_social_media">
+                    <a href="https://www.instagram.com" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+    
+                    <a href="https://twitter.com" class="footer-link" id="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+    
+                    <a href="https://facebook.com" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+    
+    
+            </div>
+    
+            <ul class="footer-list">
+                <li>
+                    <h3>Fale Conosco</h3>
+                </li>
+    
+                <li>
+                    <a href="" class="footer-link">SAC</a>
+                </li>
+    
+                <li>
+                    <a href="#" class="footer-link">Suporte</a>
+                </li>
+    
+                <li>
+                    <a href="#" class="footer-link">Contatos</a>
+                </li>
+            </ul>
+    
+            <ul class="footer-list">
+                <li>
+                    <h3>Produtos</h3>
+                </li>
+    
+                <li>
+                    <a href="#" class="footer-link">Categorias</a>
+                </li>
+    
+                <li>
+                    <a href="#" class="footer-link">Mais Recentes</a>
+                </li>
+    
+                <li>
+                    <a href="#" class="footer-link">Mais Vendidos</a>
+                </li>
+            </ul>
+    
+            <div id="footer_subscribe">
+                <h3>Inscreva-se</h3>
+                <p>Coloque o seu email para ser notificado sobre nossos novos livros</p>
+    
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button><i class="fa-regular fa-envelope"></i></button>
+                </div>
+            </div>
+    
+        </div>
+    
+        <div id="footer_copyright">
+            BookHaven &#169
+            2023 all rights reserved
+        </div>
+    </footer>
 </body>
 
 </html>
