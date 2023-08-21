@@ -70,3 +70,5 @@ Ficção
 
 21/08 -- 13:45
 - Link do LiveShare: https://prod.liveshare.vsengsaas.visualstudio.com/join?024B6301ED06B46E4F63D208DCA3B964884C
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?DEE3BB27703315EE07986D64B28A5F21F870
