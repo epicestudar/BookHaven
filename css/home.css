@@ -47,9 +47,14 @@ body{
 {
     width: 200px;
 }
+
 .cadastro{
     display: flex;
     align-items: center;
+}
+
+.cadastro img{
+    width: 30px;
 }
 
 .cadastro a{
@@ -71,7 +76,7 @@ body{
 
 
 .cabecalho .container-cabecalho .menu-pesquisa{
-    width: 75vh;
+    width: 65vh;
     background-color:#0e9fc7;
     border-radius: 15px;
     cursor: pointer;
@@ -105,7 +110,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .cabecalho .link-menu a:hover{
@@ -221,7 +226,7 @@ body{
 
 /* ---===<Recomendações da Semana>===--- */
 
-.recomendacoes-semana{
+.recomendacoes-semana h1{
     text-align: center;
     font-size: 2em;
 }
@@ -230,22 +235,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column;    
 }
 
 .container-recomendacoes{
-    padding: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 1vh;
-    margin-bottom: 5%;
-    
+    height: 812px;
+    /* margin: 1vh; */
+    margin-bottom: 5px;
     
 }
 .container-recomendacoes img{
-    height: 700px;
+    height: 600px;
     width: 400px;
 }
 
@@ -275,11 +279,11 @@ body{
     width: 100%;
     margin: 1vh;
     margin-bottom: 5%;
-    
+    height: 812px;
 }
 
 .container-recomendacoes2 img{
-    height: 700px;
+    height: 600px;
     width: 400px;
 }
 
@@ -290,7 +294,7 @@ body{
     align-items:center;
     margin: 15%;
     flex-direction: column;
-    margin-top: 1%;
+    margin-top: 15%;
     text-align: justify;
     text-indent: 15px;
     margin-left: 3%;
@@ -318,7 +322,7 @@ body{
     color: black;
 }
 .card-avaliacao{
-    background-color: rgb(38, 151, 89);
+    background-color: rgb(29, 170, 180);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -418,7 +422,7 @@ footer{
     transition: all 0.4s;
 }
 .footer-list .footer-link:hover{
-    color: #7f37c9;
+    color: #00ccff;
     text-decoration: none;
 }
 #footer_subscribe{
@@ -441,7 +445,7 @@ footer{
     width: 100%;
 }
 #input_group button{
-    background-color: #7f37c9;
+    background-color: #00ccff;
     border: none;
     color: #f5f5f5;
     padding: 0px 1.25rem;
