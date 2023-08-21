@@ -19,6 +19,7 @@ body{
 
 .container-header{
     position: fixed;
+    top: 0;
     z-index: 1;
     width: 100%;
     box-shadow: 10px 10px 20px rgb(74, 74, 74);
@@ -104,6 +105,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
+    margin-top: 20px;
 }
 
 .cabecalho .link-menu a:hover{
@@ -130,7 +132,6 @@ body{
 .car-fav{
     padding: 10px;
 }
-
 .car-fav i{
     padding: 10px;
     width: 40px;
@@ -149,6 +150,10 @@ body{
     text-decoration: none;
 }
 
+/* ---===<Configurações das imagens do carrossel principal>===--- */
+.principal{
+    margin-top: 250.8px;
+}
 /* ---===<Cards dos Mais Vendidos>===--- */
 .titulo-cards{
     margin-top: 5%;
@@ -251,7 +256,7 @@ body{
     align-items:center;
     margin: 15%;
     flex-direction: column;
-    margin-top: 1%;
+    margin-top: 15%;
     text-align: justify;
     text-indent: 15px;
     margin-right: 3%;
@@ -397,6 +402,7 @@ footer{
 
 #footer_social_media .footer-link:hover{
     opacity: 0.8;
+    text-decoration: none;
 }
 #footer_social_media .footer-link i{
     font-size: 1.2rem;
@@ -413,6 +419,7 @@ footer{
 }
 .footer-list .footer-link:hover{
     color: #7f37c9;
+    text-decoration: none;
 }
 #footer_subscribe{
     display: flex;
@@ -447,6 +454,7 @@ footer{
 
 #input_group:hover{
     opacity: 0.8s;
+    text-decoration: none;
 }
 
 #footer_copyright{
