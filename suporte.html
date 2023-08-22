@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suporte</title>
+    <title>Bookhaven - Suporte</title>
     <link rel="stylesheet" href="css/suporte.css">
     <!-- Link importado para os ícones da página-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -24,7 +24,7 @@
 
 <body>
 
-    <header class="container-header">
+<header class="container-header">
         <section class="cabecalho">
             <section class="container-cabecalho">
                 <div class="icon-logo-card">
@@ -37,14 +37,14 @@
                 </div>
                 <div class="cadastro">
                     <img src="img/icons/user.png" alt="conta-icon">
-                    <span>Olá, faça seu <a href="">login</a> ou <a href="">cadastro</a></span>
+                    <span>Olá, faça seu <a href="Back-end completo/index.php">login</a> ou <a href="Back-end completo/cadastro.php">cadastro</a></span>
                 </div>
             </section>
             <div class="link-menu">
                 <a href="home.html">Home</a>
                 <a href="">Livros</a>
                 <a href="suporte.html">Suporte</a>
-                <a href="">Contato</a>
+                <a href="contato.html">Contato</a>
             </div>
         </section>
         <nav class="navMenu">
@@ -66,7 +66,12 @@
                 </div>
                 <div class="car-fav">
                     <a href=""><i class="fa-regular fa-heart"></i></a>
-                    <a href=""><i class="ri-shopping-cart-line"></i></a>
+
+                   <!-- ÍCONE CARRINHO -->
+                    <button id="openCartSideBar" class="button-addCart">
+                    <i class="ri-shopping-cart-line"></i></a>
+                </button>
+
                 </div>
             </section>
         </nav>
