@@ -10,45 +10,73 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(img/back.png);
-    background-size: cover;
-    background-position: center;
+    background-color: white;
+
     
 }
 
-.wrapper{
-    width: 900px;
-    background-color: transparent;
-    border: 2px solid rgba(255, 255, 255, .2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    color: white;
-    border-radius: 10px;
-    padding: 30px 40px;
-}
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
 
-.wrapper h1{
-    font-size:36px;
+  .container-forms{
+    display: flex;
+    flex-direction: row;
+  }
+
+.cad-title{
     text-align: center;
+    padding: 10px;
+    font-size: larger;
 }
 
-.wrapper .input-box{
-    position: relative;
+.card-btn-save{
+    display: flex;
+    justify-content: center;
+}
+
+.card-btn-save button{
+    padding: 10px;
+    width: 10%;
+    color: black;
+    font-weight: bolder;
+    font-size: medium;
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.card-btn-save button:hover{
+    background-color: #20cdff;
+    color: white;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 50px;
-    margin: 30px 0;
+    margin: 20px;
+    margin-bottom: 50px;
+
 }
 
 .input-box input{
-    width: 100%;
+    width: 75%;
     height: 100%;
-    background: transparent;
+    /* background: transparent; */
     border: none;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     font-size: 16px;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 20px 45px 20px 20px;
 }
 
@@ -69,6 +97,11 @@ body{
     justify-content: space-between;
     font-size: 14.5px;
     margin: -15px 0 15px;
+}
+
+.input-box label{
+    padding: 10px;
+    font-weight: 600;
 }
 
 .remember-forgot label input{
@@ -136,4 +169,85 @@ body{
     font-size: 18px;
     text-align: center;
 
+}
+
+
+  
+  .formulario {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(241, 240, 240);
+    box-shadow: 5px 5px 15px gray;
+  }
+  
+  .formImg img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .formTxt {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 475px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .formulario .formTxt h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: rgb(97, 97, 97);
+  }
+  
+  .formTxt #lenviar {
+    margin-top: 10px;
+    border-radius: 17px;
+    padding: 9px;
+    border-color: rgb(224, 224, 224);
+    border: rgb(155, 155, 155);
+    color: rgb(0, 0, 0);
+    background: white;
+}
+
+.formTxt #lenviar:hover {
+    transition: 0.35s;
+    border-color: #20cdff;
+    background-color: #20cdff;
+    background: #20cdff;
+    color: rgb(255, 255, 255);
+}
+  
+  .formTxt #lnome {
+    border-radius: 17px;
+    border-color: rgb(184, 184, 184);
+    padding: 8px;
+  }
+  
+  .formTxt #lemail {
+    border-radius: 17px;
+    border-color: rgb(184, 184, 184);
+    padding: 8px;
+  }
+
+  .formTxt #lcomentario {
+    border-radius: 17px;
+    border-color: rgb(184, 184, 184);
+    padding: 8px;
+}
+
+.formTxt .socialMediaIcons {
+    display: flex;
+    align-content: flex-end;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: space-evenly;
 }

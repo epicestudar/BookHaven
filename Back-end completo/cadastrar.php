@@ -2,7 +2,7 @@
 session_start();
 include("conexao.php");
 
-if(empty($_POST['usuario']) || empty($_POST['senha']) || empty($_POST['usuario'])){
+if(empty($_POST['nome']) || empty($_POST['senha']) || empty($_POST['usuario'])){
     header('Location: cadastro.php');
     exit();
 }

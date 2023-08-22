@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <!-- Link importado para os ícones das redes sociais do footer -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+    <!-- Link de fontes para os textos -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="container-header">
+        <section class="cabecalho">
+            <section class="container-cabecalho">
+                <div class="icon-logo-card">
+                    <img src="img/icons/navIcon.png" alt="logo" class="icon-logo">
+                    <!-- img/icons/navIcon.png -->
+                </div>
+                <div class="menu-pesquisa">
+                    <input type="search" name="search_input" id="search_input" placeholder="Pesquisar...">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="cadastro">
+                    <img src="img/icons/user.png" alt="conta-icon">
+                    <span>Olá, faça seu <a href="Back-end completo/login.php">login</a> ou <a
+                            href="Back-end completo/cadastro.php">cadastro</a></span>
+                </div>
+            </section>
+            <div class="link-menu">
+                <a href="home.html">Home</a>
+                <a href="">Livros</a>
+                <a href="suporte.html">Suporte</a>
+                <a href="contato.html">Contato</a>
+            </div>
+        </section>
+        <nav class="navMenu">
+            <section class="categorias-container">
+                <div class="cat-links">
+                    <a href="" class="menu-categorias-link">Mais Vendidos</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Literatura Brasileira</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Literatura Infátil</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Romance</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Ficção</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Terror</a>
+                    <span class="menu-categorias-link">|</span>
+                    <a href="" class="menu-categorias-link">Aventura</a>
+                </div>
+                <div class="car-fav">
+                    <button><i class="fa-regular fa-heart"></i></button>
+
+                    <!-- ÍCONE CARRINHO -->
+                    <button id="openCartSideBar" class="button-addCart">
+                        <i class="ri-shopping-cart-line"></i>
+                    </button>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <section>
+        <div class="centralizar">
+            <div class="formulario">
+                <div class="formImg" style="height: 479px;">
+                    <img src="img/banners/contato.png" class="img-fluid" alt="">
+                </div>
+                <div class="formTxt">
+                    <h2>Contate-nos</h2>
+                    <input type="text" id="lnome" name="nome" size="23" placeholder="Insira seu nome de usuário">
+                    <input type="email" id="lemail" name="email" size="23" placeholder="Insira seu email">
+                    <textarea name="comentario" id="lcomentario" cols="30" rows="5"
+                        placeholder="Insira seu comentário"></textarea>
+                    <input type="submit" id="lenviar" value="Entrar" name="enviar" size="10">
+                    <div class="socialMediaIcons">
+                        <a class="twitter" href="x.com">
+                            <img src="img/twitter.png" alt="" style="height: 20px; width: 20px;">
+                        </a>
+                        <a class="instagram" href="instagram.com">
+                            <img src="img/instagram.png" alt="" style="height: 20px; width: 20px;">
+                        </a>
+                        <a class="facebook" href="facebook.com">
+                            <img src="img/facebook.png" alt="" style="height: 20px; width: 20px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

@@ -48,65 +48,77 @@ session_start();
                     unset($_SESSION['usuario_existe']);
                     ?>
 
+                    <div class="centralizar">
+                        <div class="formulario">
+                            <div class="formImg" style="height: 466px;">
+                                <img src="../img/banners/cadastroImg.png" class="img-fluid" alt="">
+                            </div>
+                            <form action="cadastrar.php" method="POST">
+                                <div class="cad-title">
+                                    <h1 class="title">Cadastro</h1>
+                                </div>
+                                <section class="container-forms">
+                                    <div class="row">
+                                        <div class="input-box">
+                                            <label for="nome">Nome</label>
+                                            <input type="text" name="nome" id="nome" class="input is-large" required>
+                                        </div>
+                                        <div class="input-box">
+                                            <label for="nome">Usuário</label>
+                                            <input type="text" name="usuario" class="input is-large" id="usuario">
+                                        </div>
+                                        <div class="input-box">
+                                            <label for="nome">Senha</label>
+                                            <input type="password" name="senha" class="input is-large">
+                                        </div>
+                                    </div>
 
+                                    <div class="row">
+                                        <div class="input-box">
+                                            <label for="cep">CEP</label>
+                                            <input type="text" id="cep" class="input is-large" required>
+                                        </div>
+                                        <div class="input-box">
+                                            <label for="endereco">Endereço</label>
+                                            <input type="text" id="endereco" class="input is-large" required>
+                                        </div>
+                                        <div class="input-box">
+                                            <label for="numero">Número</label>
+                                            <input type="text" id="numero" class="input is-large" required>
+                                        </div>
+                                    </div>
 
-   
-
-        <div class="wrapper">
-        <h1 class="title">Cadastro</h1>
-        <form action="cadastrar.php" method="POST">
-            <div class="row">
-                <div class="input-box">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" class="input is-large" required>
-                </div>
-                <div class="input-box">
-                    <label for="email">Email</label>
-                    <input type="text" id="email" class="input is-large" required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="input-box">
-                    <label for="cep">CEP</label>
-                    <input type="text" id="cep" class="input is-large" required >
-                </div>
-                <div class="input-box">
-                    <label for="endereco">Endereço</label>
-                    <input type="text" id="endereco" class="input is-large" required>
-                </div>
-                <div class="input-box">
-                    <label for="numero">Número</label>
-                    <input type="text" id="numero" class="input is-large" required>
-                </div>
-            </div>
-            <div class="row">
-                <div class="input-box">
-                    <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro" class="input is-large" required>
-                </div>
-                <div class="input-box">
-                    <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" class="input is-large" required>
-                </div>
-                <div class="input-box">
-                    <label for="estado">Estado</label>
-                    <input type="text" id="estado" class="input is-large" required>
-                </div>
-            </div>
-            <div class="row">
-                <button class="btn">Salvar</button>
-            </div>
-        </form>
-    </div>
-
-
-
+                                    <div class="row">
+                                        <div class="input-box">
+                                            <label for="bairro">Bairro</label>
+                                            <input type="text" id="bairro" class="input is-large" required>
+                                        </div>
+                                        <div class="input-box">
+                                            <label for="cidade">Cidade</label>
+                                            <input type="text" id="cidade" class="input is-large" required>
+                                        </div>
+                                        <div class="input-box">
+                                            <label for="estado">Estado</label>
+                                            <input type="text" id="estado" class="input is-large" required>
+                                        </div>
+                                    </div>
+                                </section>
+                                <div class="card-btn-save">
+                                        <button class="btn">Cadastrar</button>
+                                    </div>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
     </section>
-    
+
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
 </body>
 
 </html>

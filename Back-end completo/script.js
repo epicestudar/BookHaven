@@ -25,7 +25,7 @@ const pesquisarCep = async() => {
     
     const cep = document.getElementById('cep').value.replace("-","");
     const url = `https://viacep.com.br/ws/${cep}/json/`;
-    if (cepValido(cep)){
+    if (cepValido(cep) ){
         const dados = await fetch(url);
         const endereco = await dados.json();
         if (endereco.hasOwnProperty('erro')){
