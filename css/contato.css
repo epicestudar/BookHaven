@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Poppins:ital,wght@1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    min-height: 100vh;
+}
+
+/* ---===<Header>===--- */
+
+.container-header{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    box-shadow: 10px 10px 20px rgb(74, 74, 74);
+}
+
+.cabecalho{
+    width: 100%;
+    height: 19vh;
+    background-color: #20cdff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cabecalho .container-cabecalho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;  
+    width: 100%;  
+}
+
+.cabecalho .container-cabecalho .icon-logo-card img
+{
+    width: 200px;
+}
+
+.cadastro{
+    display: flex;
+    align-items: center;
+}
+
+.cadastro img{
+    width: 30px;
+}
+
+.cadastro a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
+
+.cadastro a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+.cadastro span{
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.cabecalho .container-cabecalho .menu-pesquisa{
+    width: 65vh;
+    background-color:#0e9fc7;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa input{
+    padding: 5px;
+    width: 86%;
+    border: 0px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa i{
+    padding: 5px;
+    padding-right: 25px;
+}
+
+.cabecalho .link-menu{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cabecalho .link-menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    margin-top: 35px;
+}
+
+.cabecalho .link-menu a:hover{
+    color: yellow;
+}
+
+.navMenu{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    font-weight: 400;
+}
+
+.categorias-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.car-fav{
+    padding: 10px;
+}
+.car-fav i{
+    padding: 10px;
+    width: 40px;
+    
+}
+
+.navMenu .cat-links a{
+    padding: 10px;
+    height: 100%;
+    color: black;
+    transition: all 200ms ease-in-out;
+}
+
+.navMenu .cat-links a:hover{
+    background-color:   rgb(229, 229, 229);
+    text-decoration: none;
+}
+
+.button-hover-background {
+    
+}
+
+.button-addCart {
+ border: none;
+ background-color: transparent;
+ padding: 5px;
+}
+
+.button-addCart:hover{
+    background-color: transparent; 
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+
+.product-card {
+  border: 1px solid #ccc;
+  margin: 90px 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100px;
+}
+
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: right 0.3s ease;
+}
+
+.cart-sidebar h2 {
+  margin-top: 260px;
+}
+
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-total {
+  font-weight: bold;
+  
+}
+
+.checkout-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
+
+/* ---===<contact>===--- */
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin-top: 250.8px;
+  }
+  
+  .formulario {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(241, 240, 240);
+  }
+  
+  .formImg img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .formTxt {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 475px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .formulario .formTxt h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: rgb(97, 97, 97);
+  }
+  
+  .formTxt #lenviar {
+    margin-top: 10px;
+    border-radius: 17px;
+    padding: 9px;
+    border-color: rgb(224, 224, 224);
+    border: rgb(155, 155, 155);
+    color: rgb(0, 0, 0);
+    background: white;
+}
+
+.formTxt #lenviar:hover {
+    transition: 0.35s;
+    border-color: #20cdff;
+    background-color: #20cdff;
+    background: #20cdff;
+    color: rgb(255, 255, 255);
+}
+  
+  .formTxt #lnome {
+    border-radius: 17px;
+    border-color: rgb(184, 184, 184);
+    padding: 8px;
+  }
+  
+  .formTxt #lemail {
+    border-radius: 17px;
+    border-color: rgb(184, 184, 184);
+    padding: 8px;
+  }
+
+  .formTxt #lcomentario {
+    border-radius: 17px;
+    border-color: rgb(184, 184, 184);
+    padding: 8px;
+}
+
+.formTxt .socialMediaIcons {
+    display: flex;
+    align-content: flex-end;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: space-evenly;
+}
