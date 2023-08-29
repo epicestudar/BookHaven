@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/produtos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="container-header">
+    <section class="cabecalho">
+      <section class="container-cabecalho">
+        <div class="icon-logo-card">
+          <img src="img/icons/navIcon.png" alt="logo" class="icon-logo">
+          <!-- img/icons/navIcon.png -->
+        </div>
+        <div class="menu-pesquisa">
+          <input type="search" name="search_input" id="search_input" placeholder="Pesquisar...">
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="cadastro">
+          <img src="img/icons/user.png" alt="conta-icon" class="contaIcon">
+          <span>Olá, faça seu <a href="">login</a> ou <a href="">cadastro</a></span>
+        </div>
+      </section>
+      <div class="link-menu">
+        <a href="home.html">Home</a>
+        <a href="produtos.html">Livros</a>
+        <a href="suporte.html">Suporte</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </section>
+    <nav class="navMenu">
+      <section class="categorias-container">
+        <div class="cat-links">
+          <a href="" class="menu-categorias-link">Mais Vendidos</a>
+          <a href="" class="menu-categorias-link">|</a>
+          <a href="" class="menu-categorias-link">Literatura Brasileira</a>
+          <a href="" class="menu-categorias-link">|</a>
+          <a href="" class="menu-categorias-link">Literatura Infátil</a>
+          <a href="" class="menu-categorias-link">|</a>
+          <a href="" class="menu-categorias-link">Romance</a>
+          <a href="" class="menu-categorias-link">|</a>
+          <a href="" class="menu-categorias-link">Ficção</a>
+          <a href="" class="menu-categorias-link">|</a>
+          <a href="" class="menu-categorias-link">Terror</a>
+          <a href="" class="menu-categorias-link">|</a>
+          <a href="" class="menu-categorias-link">Aventura</a>
+        </div>
+        <div class="car-fav">
+          <a href=""><i class="fa-regular fa-heart"></i></a>
+          <a href=""><i class="ri-shopping-cart-line"></i></a>
+        </div>
+      </section>
+    </nav>
+  </header>
+
+
+  <div class="titulo-cards">
+    <h2>Literatura Brasileira</h2>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Dom Casmurro.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Dom Casmurro</h5>
+          <p class="card-text">Machado de Assis</p>
+          <button type="button" class="btn-card cart-add-button cart-add-button" id="addToCartDomCasmurro" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Guarani.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Guarani</h5>
+          <br>
+          <p class="card-text">José Alencar</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Capitães de Areia.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Capitães de Areia</h5>
+          <p class="card-text">Jorge Amado</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar, 20,00</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Livro do Desassossego.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Desassossego</h5>
+          <br>
+          <p class="card-text">Fernando Pessoa</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Mar Absoluto.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Mar Absoluto</h5>
+          <br>
+          <p class="card-text">Cecília Meireles</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/o Alquimista.png" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Alquimista</h5>
+          <br>
+          <p class="card-text">Paulo Coelho</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Cortiço.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Cortiço</h5>
+          <p class="card-text">Aluísio Azevedo</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Quarto do Despejo.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Quarto do Despejo</h5>
+          <p class="card-text">Carolina Maria de Jesus</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Um Conto de Duas Cidades.png" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Um Conto de Duas Cidades</h5>
+          <p class="card-text">Charles Dickens</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Vidas Secas.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Vidas Secas</h5>
+          <br>
+          <p class="card-text">Graciliano Ramos</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Auto da Compadecida.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Auto da Compadecida</h5>
+          <p class="card-text">Ariano Suassuna</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 180px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O meu Pé de Laranja Lima.png" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Meu Pé de Laranja Lima</h5>
+          <p class="card-text">José Mauro</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Sobrevivendo no Inferno.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Sobrevivendo no Inferno</h5>
+          <p class="card-text">Racionais MC's</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Iracema.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Iracema</h5>
+          <p class="card-text">José de Alencar</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="titulo-cards">
+    <h2>Ficção e Fantasia</h2>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/duna1.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Duna</h5>
+          <br>
+          <br>
+          <p class="card-text">Frank Hebert</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/duna2.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Messias de Duna</h5>
+          <br>
+          <p class="card-text">Frank Hebert</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/duna3.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Filhos de Duna</h5>
+          <br>
+          <p class="card-text">Frank Hebert</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/duna4.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Imperador-Deus de Duna</h5>
+          <p class="card-text">Frank Hebert</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/duna5.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Hereges de Duna</h5>
+          <br>
+          <p class="card-text">Frank Hebert</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Harry Potter Pedra Filosofal.png" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Harry Potter Pedra Filosofal</h5>
+          <p class="card-text">J. K. Rowling</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Harry Potter Câmara Secreta.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Harry Potter Câmara Secreta</h5>
+          <p class="card-text">J. K. Rowling</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Harry Potter e o Prisioneiro de Azkaban.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Harry Potter Prisioneiro de Azkaban</h5>
+          <p class="card-text">J. K. Rowling</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Harry Potter e o Cálice de Fogo.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Harry Potter Cálice de Fogo </h5>
+          <p class="card-text">J. K. Rowling</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Harry Potter e a Ordem da Fenix.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Harry Potter Ordem da Fênix</h5>
+          <p class="card-text">J. K. Rowling</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Percy Jackson Ladrão de Raios.png" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Percy Jackson Ladrão de Raios</h5>
+          <p class="card-text">Rick Riordan</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Percy Jackson Mar de Monstros.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Percy Jackson Mar de Monstros</h5>
+          <p class="card-text">Rick Riordan</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Percy Jackson a Maldição do Titã.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Percy Jackson a Maldição do Titã</h5>
+          <p class="card-text">Rick Riordan</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Blade Runner.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Blade Runner</h5>
+          <br>
+          <br>
+          <p class="card-text">Phillip K. Dick</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="titulo-cards">
+    <h2>Literatura Infantil</h2>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Pequeno Principe.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Pequeno Príncipe</h5>
+          <br>
+          <p class="card-text">Frank Hebert</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Turma da Monica.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Turma da Mônica - 15</h5>
+          <p class="card-text">Maurício de Sousa</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Menino Maluquinho.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Menino Maluquinho</h5>
+          <br>
+          <p class="card-text">Ziraldo</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Boa Sorte.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Boa Sorte</h5>
+          <br>
+          <br>
+          <p class="card-text">Álex Rovira</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Os Tres Porquinhos.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Os Três Porquinhos</h5>
+          <br>
+          <p class="card-text">Joseph Jacobs</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Chapeuzinho Vermelho.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Chapéuzinho Vermelho</h5>
+          <p class="card-text">Rosie Dickins</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Branca de Neve.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Branca de Neve</h5>
+          <br>
+          <p class="card-text">Irmãos Grimm</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Tartaruga e a Lebre.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Tartaruga e a Lebre</h5>
+          <br>
+          <p class="card-text">Esopo</p>  
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Leao e o Rato.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Leão e o Rato</h5>
+          <br>
+          <p class="card-text">Esopo</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Roupa Nova do Rei.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Roupa Nova do Rei</h5>
+          <br>
+          <p class="card-text">Hans Christian</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Raposa e as Uvas.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Raposa e as Uvas</h5>
+          <br>
+          <p class="card-text">Esopo</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Cigarra e a Formiga.jpeg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Cigarra e a Formiga</h5>
+          <br>
+          <p class="card-text">Esopo</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Lobo e o Cordeiro.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Lobo e o Cordeiro</h5>
+          <br>
+          <p class="card-text">Rick Riordan</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O João e o Pé de Feijão.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">João e o Pé de Feijão</h5>
+          <br>
+          <p class="card-text">Phillip K. Dick</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="titulo-cards">
+    <h2>Romance</h2>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Culpa é das Estrelas.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Culpa é das Estrelas</h5>
+          <p class="card-text">John Green</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Eu e Esse Meu Coração.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Eu e Esse Meu Coração</h5>
+          <p class="card-text">C. C. Hunter</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/E Assim que Acaba.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">É Assim que Acaba</h5>
+          <p class="card-text">Colleen Hoover</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Biblioteca da Meia-Noite.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Biblioteca da Meia-Noite</h5>
+          <p class="card-text">Matt Haig</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Hipotese do Amor.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Hipótese do Amor</h5>
+          <br>
+          <p class="card-text">Ali HazelWood</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Verity.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Verity</h5>
+          <p class="card-text">Colleen Hoover</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Emma.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Emma</h5>
+          <p class="card-text">Jane Austen</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Mandibula de Caim.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Mandíbula de Caim</h5>
+          <p class="card-text">Edward Powys</p>  
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Quando Ninguem Esta Olhando.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Quando Ninguém Está Olhando</h5>
+          <p class="card-text">Alyssa Cole</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Imperfeitos.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Imperfeitos</h5>
+          <p class="card-text">Christina Lauren</p>
+          <br>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Antes Que o Café esfrie.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Antes Que o Café Esfrie</h5>
+          <br>
+          <p class="card-text">Toshikazu Kawaguchi</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Teto Para Dois.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Teto Para Dois</h5>
+          <br>
+          <p class="card-text">Beth O'Leary</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Lado Feio do Amor.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Lado Feio do Amor</h5>
+          <p class="card-text">Colleen Hoover</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Todo Esse Tempo.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Todo Esse Tempo</h5>
+          <p class="card-text">Rachael Lippincott</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="titulo-cards">
+    <h2>Terror</h2>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Nunca Saia Sozinho.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Nunca Saia Sozinho</h5>
+          <p class="card-text">Charlie Donlea</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Outsider.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Outsider</h5>
+          <br>
+          <p class="card-text">Stephen King</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Homem de Giz.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Homem de Giz</h5>
+          <p class="card-text">C. J. Tudor</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/It a Coisa.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">It a Coisa</h5>
+          <br>
+          <p class="card-text">Stephen King</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Uma Mulher na Escuridão.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Uma Mulher na Escuridão</h5>
+          <p class="card-text">Charlie Donlea</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Cemiterio.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Cemitério</h5>
+          <p class="card-text">Stephen King</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Frankenstein.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Frankenstein</h5>
+          <p class="card-text">Mary Shelley</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Rosemary's Baby.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Rosemary's Baby</h5>
+          <p class="card-text">Ira Levin</p>  
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Dracula.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Drácula</h5>
+          <p class="card-text">Bram Stoker</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Telefone Preto.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Telefone Preto</h5>
+          <p class="card-text">Joe Hill</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Coraline.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Coraline</h5>
+          <p class="card-text">Neil Gaiman</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Vilarejo.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Vilarejo</h5>
+          <p class="card-text">Raphael Montes</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Horror em Amityville.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Horror em Amityville</h5>
+          <p class="card-text">Jay Anson</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Exorcista.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Exorcista</h5>
+          <p class="card-text">William Peter</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="titulo-cards">
+    <h2>Aventura</h2>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Hobbit.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Hobbit</h5>
+          <p class="card-text">J.R.R. Tolkien</p>
+          <br>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Moby Dick.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Moby Dick</h5>
+          <p class="card-text">Herman Melville</p>
+          <br>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Jurassic Park.png" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Jurassic Park</h5>
+          <p class="card-text">Michael Crichton</p>
+          <br>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Tarzan O Filho das Selvas.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Tarzan O Filho das Selvas</h5>
+          <p class="card-text">Edgar Rice</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Rainha Vermelha.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Rainha Vermelha</h5>
+          <p class="card-text">Victoria Aveyard</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Os Três Mosqueteiros.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Os Três Mosqueteiros</h5>
+          <p class="card-text">Alexandre Dumas</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/A Ilha do Tesouro.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">A Ilha do Tesouro</h5>
+          <p class="card-text">Robert Louis</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Último dos Moicanos.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Último dos Moicanos</h5>
+          <p class="card-text">James Fenimore</p>  
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Senhor dos Anéis.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Senhor dos Anéis</h5>
+          <p class="card-text">J. R. R. Tolkien</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Velho e o Mar.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Velho e o Mar</h5>
+          <p class="card-text">Ernest Hemingway</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Diário Perdido de Gravity Falls.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Diário Perdido de Gravity Falls</h5>
+          <p class="card-text">Alex Hirsch</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/O Olho do Mundo.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">O Olho do Mundo</h5>
+          <p class="card-text">Robert Jordan</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/As Crônicas de Nárnia.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">As Crônicas de Nárnia</h5>
+          <p class="card-text">C.S. Lewis</p>
+          <br>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+      <div class="card" style="width: 184px;margin-bottom: 13px; margin: 10px;">
+        <img src="img/imgzz/Alice no País das Maravilhas.jpg" class="card-img-top" alt="" height="200px">
+        <div class="card-body" href="">
+          <h5 class="card-title">Alice no País das Maravilhas</h5>
+          <p class="card-text">Lewis Carroll</p>
+          <button type="button" class="btn-card cart-add-button" style="margin-bottom: 5px;">Comprar</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="cart-sidebar">
+    <h2>Carrinho</h2>
+    <ul class="cart-items">
+        
+    </ul>
+    <div class="cart-total">
+        <strong>Total:</strong> R$<span class="cart-total-value">0.00</span>
+    </div>
+    <button id="closeCartSidebar" class="cart-close-button">Fechar Carrinho</button>
+</div>
+
+ <!-- Rodapé do site -->
+ <footer>
+  <div id="footer_content">
+      <div id="footer_contacts">
+          <h2>BookHaven</h2>
+          <p>Onde sonhos ganham forma!</p>
+
+          <div id="footer_social_media">
+              <a href="https://www.instagram.com" class="footer-link" id="instagram">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="https://twitter.com" class="footer-link" id="twitter">
+                  <i class="fa-brands fa-twitter"></i>
+              </a>
+
+              <a href="https://facebook.com" class="footer-link" id="facebook">
+                  <i class="fa-brands fa-facebook"></i>
+              </a>
+          </div>
+
+
+      </div>
+
+      <ul class="footer-list">
+          <li>
+              <h3>Fale Conosco</h3>
+          </li>
+
+          <li>
+              <a href="" class="footer-link">SAC</a>
+          </li>
+
+          <li>
+              <a href="#" class="footer-link">Suporte</a>
+          </li>
+
+          <li>
+              <a href="#" class="footer-link">Contatos</a>
+          </li>
+      </ul>
+
+      <ul class="footer-list">
+          <li>
+              <h3>Produtos</h3>
+          </li>
+
+          <li>
+              <a href="#" class="footer-link">Categorias</a>
+          </li>
+
+          <li>
+              <a href="#" class="footer-link">Mais Recentes</a>
+          </li>
+
+          <li>
+              <a href="#" class="footer-link">Mais Vendidos</a>
+          </li>
+      </ul>
+
+      <div id="footer_subscribe">
+          <h3>Inscreva-se</h3>
+          <p>Coloque o seu email para ser notificado sobre nossos novos livros</p>
+
+          <div id="input_group">
+              <input type="email" id="email">
+              <button><i class="fa-regular fa-envelope"></i></button>
+          </div>
+      </div>
+
+  </div>
+
+  <div id="footer_copyright">
+      BookHaven &#169
+      2023 all rights reserved
+  </div>
+</footer>
+
+  <script src="js/product.js" defer></script>
+</body>
+
+
+
+
+   
+
+</html>

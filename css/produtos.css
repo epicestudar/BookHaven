@@ -18,8 +18,7 @@ body{
 /* ---===<Header>===--- */
 
 .container-header{
-    position: fixed;
-    top: 0;
+    /* position: fixed; */
     z-index: 1;
     width: 100%;
     box-shadow: 10px 10px 20px rgb(74, 74, 74);
@@ -27,7 +26,7 @@ body{
 
 .cabecalho{
     width: 100%;
-    height: 25vh;
+    height: 19vh;
     background-color: #20cdff;
     display: flex;
     justify-content: center;
@@ -37,7 +36,7 @@ body{
 
 .cabecalho .container-cabecalho{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
     align-items: center;  
     width: 100%;  
@@ -47,14 +46,9 @@ body{
 {
     width: 200px;
 }
-
 .cadastro{
     display: flex;
     align-items: center;
-}
-
-.cadastro img{
-    width: 30px;
 }
 
 .cadastro a{
@@ -76,14 +70,13 @@ body{
 
 
 .cabecalho .container-cabecalho .menu-pesquisa{
-    width: 78vh;
+    width: 75vh;
     background-color:#0e9fc7;
     border-radius: 15px;
     cursor: pointer;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    
 }
 
 .cabecalho .container-cabecalho .menu-pesquisa input{
@@ -111,7 +104,6 @@ body{
     text-decoration: none;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
-    margin-top: 35px;
 }
 
 .cabecalho .link-menu a:hover{
@@ -138,6 +130,7 @@ body{
 .car-fav{
     padding: 10px;
 }
+
 .car-fav i{
     padding: 10px;
     width: 40px;
@@ -156,89 +149,6 @@ body{
     text-decoration: none;
 }
 
-
-/* ESTILIZAÇÃO SIMPLES DO CARRINHO */
-.button-hover-background {
-    
-}
-
-.button-addCart {
- border: none;
- background-color: transparent;
-}
-
-.carousel {
-  display: flex;
-  overflow-x: auto;
-}
-
-
-.product-card {
-  border: 1px solid #ccc;
-  margin: 90px 20px;
-  padding: 10px;
-  text-align: center;
-}
-
-.product-card img {
-  max-width: 100px;
-}
-
-.cart-sidebar {
-  position: fixed;
-  top: 0;
-  right: -300px;
-  width: 300px;
-  height: 100%;
-  background-color: #f2f2f2;
-  padding: 20px;
-  box-sizing: border-box;
-  transition: right 0.3s ease;
-  max-height: 100%;
-  overflow-y: auto;
-}
-
-.cart-sidebar h2 {
-  margin-top: 160px;
-}
-
-.cart-items {
-  list-style: none;
-  padding: 0;
-}
-
-.cart-item {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.cart-total {
-  font-weight: bold;
-  
-}
-
-.checkout-button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px;
-  width: 100%;
-  cursor: pointer;
-  margin-top: 100px;
-}
-
-.checkout-button:hover {
-  background-color: #0056b3;
-}
-/* ESSA ESTILIZAÇÃO ACIMA É DA BARRA ONDE ESTÁ O CARRINHO, POR FAVOR FAZ ALGO UM POUCO MAIS BONITO :)))) */
-
-
-
-/* ---===<Configurações das imagens do carrossel principal>===--- */
-.principal{
-    margin-top: 250.8px;
-}
 /* ---===<Cards dos Mais Vendidos>===--- */
 .titulo-cards{
     margin-top: 5%;
@@ -304,230 +214,9 @@ body{
     background: #c1ac9c;
 }
 
-/* ---===<Carrossel de cards das categorias>===--- */
-.titulo-categorias{
-    margin-left: 5%;
-}
-.titulo-categorias2{
-    margin-left: 5%;
-    margin-top: 10%;
-}
-.titulo-categorias3{
-    margin-left: 5%;
-    margin-top: 10%;
-}
-.titulo-categorias4{
-    margin-left: 5%;
-    margin-top: 10%;
-}
-.titulo-categorias5{
-    margin-left: 5%;
-    margin-top: 10%;
-}
-
-
-.wrapper {
-    margin-top: 2%;
-    max-width: 1100px;
-    width: 100%;
-    /* position: relative; */
-  }
-  .wrapper i {
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    font-size: 1.25rem;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    background: #fff;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
-  }
-  .wrapper i:active{
-    transform: translateY(-50%) scale(0.85);
-  }
-  .card .botao-cards{
-    margin-top: 2%;
-    background-color: #000000;
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  .card .botao-cards:hover{
-    background-color: #489dd2;
-    
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  }
-
-  .cart-item-content {
-    display: flex;
-    align-items: center; 
-    gap: 5px; 
-}
-
-
-.cart-item-image {
-    max-width: 45px; 
-    height: auto;
-}
-
-  .card2 .botao-cards{
-    margin-top: 2%;
-    background-color: #000000;
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  .card2 .botao-cards:hover{
-    background-color: #489dd2;
-    
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-  }
-  .card h3{
-    color: #fff;
-  }
-  .card2 h3{
-    color: #fff;
-  }
-  .wrapper i:first-child{
-    left: -22px;
-  }
-  .wrapper i:last-child{
-    right: -22px;
-  }
-  .wrapper .carouselProducts{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 12px);
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 16px;
-    border-radius: 8px;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-  }
-  .carouselProducts::-webkit-scrollbar {
-    display: none;
-  }
-  .carouselProducts.no-transition {
-    scroll-behavior: auto;
-  }
-  .carouselProducts.dragging {
-    scroll-snap-type: none;
-    scroll-behavior: auto;
-  }
-  .carouselProducts.dragging .card {
-    cursor: grab;
-    user-select: none;
-  }
-  .carouselProducts.dragging .card2 {
-    cursor: grab;
-    user-select: none;
-  }
-  .carouselProducts :where(.card, .img) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .carouselProducts :where(.card2, .img) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
- 
-  
-  .carouselProducts .card {
-    scroll-snap-align: start;
-    height: 342px;
-    list-style: none;
-    background: #177792;
-    cursor: pointer;
-    padding-bottom: 15px;
-    flex-direction: column;
-    border-radius: 8px;
-    text-align: center;
-  }
-  .carouselProducts .card2 {
-    scroll-snap-align: start;
-    height: 342px;
-    list-style: none;
-    background: #177792;
-    cursor: pointer;
-    padding-bottom: 15px;
-    flex-direction: column;
-    border-radius: 8px;
-    text-align: center;
-  }
-
-  .card .img img{
-    width: 140px;
-    height: 160px;
-  }
-  .card2 .img img{
-    width: 140px;
-    height: 160px;
-  }
-  
-  .carouselProducts .card h2 {
-    font-weight: 500;
-    font-size: 1.56rem;
-    margin: 30px 0 5px;
-  }
-  .carouselProducts .card span {
-    color: #aca8be;
-    font-size: 1.31rem;
-    margin-bottom: 5%;
-  }
-  .carouselProducts .card2 h2 {
-    font-weight: 500;
-    font-size: 1.56rem;
-    margin: 30px 0 5px;
-  }
-  .carouselProducts .card2 .hp h2 {
-    font-weight: 500;
-    font-size: 1.56rem;
-    margin: 30px 0 5px;
-  }
-  .carouselProducts .card2 span {
-    color: #aca8be;
-    font-size: 1.31rem;
-    margin-bottom: 5%;
-  }
- 
-  .containerProducts{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  @media screen and (max-width: 900px) {
-    .wrapper .carouselProducts {
-      grid-auto-columns: calc((100% / 2) - 9px);
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .wrapper .carouselProducts {
-      grid-auto-columns: 100%;
-    }
-  }
-
 /* ---===<Recomendações da Semana>===--- */
 
-.recomendacoes-semana h1{
-    margin-top: 20%;
+.recomendacoes-semana{
     text-align: center;
     font-size: 2em;
 }
@@ -536,21 +225,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 .container-recomendacoes{
+    padding: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 812px;
-    /* margin: 1vh; */
-    margin-bottom: 5px;
+    margin: 1vh;
+    margin-bottom: 5%;
+    
     
 }
 .container-recomendacoes img{
-    height: 600px;
+    height: 700px;
     width: 400px;
 }
 
@@ -561,7 +251,7 @@ body{
     align-items:center;
     margin: 15%;
     flex-direction: column;
-    margin-top: 15%;
+    margin-top: 1%;
     text-align: justify;
     text-indent: 15px;
     margin-right: 3%;
@@ -580,11 +270,11 @@ body{
     width: 100%;
     margin: 1vh;
     margin-bottom: 5%;
-    height: 812px;
+    
 }
 
 .container-recomendacoes2 img{
-    height: 600px;
+    height: 700px;
     width: 400px;
 }
 
@@ -595,7 +285,7 @@ body{
     align-items:center;
     margin: 15%;
     flex-direction: column;
-    margin-top: 15%;
+    margin-top: 1%;
     text-align: justify;
     text-indent: 15px;
     margin-left: 3%;
@@ -623,7 +313,7 @@ body{
     color: black;
 }
 .card-avaliacao{
-    background-color: rgb(29, 170, 180);
+    background-color: rgb(38, 151, 89);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -707,7 +397,6 @@ footer{
 
 #footer_social_media .footer-link:hover{
     opacity: 0.8;
-    text-decoration: none;
 }
 #footer_social_media .footer-link i{
     font-size: 1.2rem;
@@ -723,8 +412,7 @@ footer{
     transition: all 0.4s;
 }
 .footer-list .footer-link:hover{
-    color: #00ccff;
-    text-decoration: none;
+    color: #7f37c9;
 }
 #footer_subscribe{
     display: flex;
@@ -746,7 +434,7 @@ footer{
     width: 100%;
 }
 #input_group button{
-    background-color: #00ccff;
+    background-color: #7f37c9;
     border: none;
     color: #f5f5f5;
     padding: 0px 1.25rem;
@@ -759,7 +447,6 @@ footer{
 
 #input_group:hover{
     opacity: 0.8s;
-    text-decoration: none;
 }
 
 #footer_copyright{
@@ -782,4 +469,283 @@ footer{
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
+}
+
+
+
+
+
+
+.subCard .subCard .subCardImage{
+    padding: 3px;
+    background: rgb(255, 255, 255);
+}
+
+.subCard .subCard .subCardImage img{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+
+}
+
+.subCard {
+   background: rgb(230, 230, 230);
+   border-radius: 15px;
+   border: #0e0c0c;
+   width: 200px;
+}
+
+
+.subCard .subCard-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+}
+
+.subCard .book-author {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10px;
+   color: rgb(0, 0, 0);
+}
+
+.subCard .feedback {
+   display: flex;
+   align-items:center;
+   margin-top: 5px;
+}
+
+.subCard .like {
+   font-size: 18px;
+   margin: 0 2px;
+   color: yellow;
+}
+
+.subCard .button {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 10px;
+}
+
+.subCard .button button{
+   background: rgb(255, 255, 255);
+   outline: none;
+   border: none;
+   padding: 8px 10px;
+   border-radius: 12px;
+   font-size: 12px;
+   font-weight: 600;
+   transition: all 0.3s ease;
+}
+
+.book-author .book {
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.book-author .author {
+   font-size: 15px;
+   font-weight: 500;
+}
+
+.button button:hover {
+   background: rgb(32, 186, 4);
+}
+
+
+
+
+
+
+
+
+.centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(241, 240, 240);
+}
+
+.formImg img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.formTxt {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 475px;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.formulario .formTxt h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: rgb(97, 97, 97);
+}
+
+.formTxt #lenviar {
+    margin-top: 10px;
+    border-radius: 17px;
+    padding: 9px;
+    border-color: rgb(224, 224, 224);
+    border: rgb(155, 155, 155);
+    color: rgb(0, 0, 0);
+    background: white;
+}
+
+.formTxt #lenviar:hover {
+    transition: 0.35s;
+    border-color: #20cdff;
+    background-color: #20cdff;
+    background: #20cdff;
+    color: rgb(255, 255, 255);
+}
+
+.formTxt #lnome {
+    border-radius: 17px;
+    border-color: rgb(184, 184, 184);
+    padding: 8px;
+}
+
+.formTxt #lemail {
+    border-radius: 17px;
+    border-color: rgb(184, 184, 184);
+    padding: 8px;
+}
+
+.formTxt #lcomentario {
+    border-radius: 17px;
+    border-color: rgb(184, 184, 184);
+    padding: 8px;
+}
+
+.formTxt .socialMediaIcons {
+    display: flex;
+    align-content: flex-end;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contaIcon{
+    width: 30px;
+}
+
+.card {
+    padding: 5px;
+    padding-top: 10px;
+}
+/* ESTILIZAÇÃO SIMPLES DO CARRINHO */
+.cart-sidebar {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #f8f8f8;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 9999;
+    transition: right 0.3s ease-in-out;
+    overflow-y: auto;
+}
+
+.cart-sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.cart-total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.cart-total strong {
+    font-weight: bold;
+}
+
+.cart-close-button {
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cart-close-button:hover {
+    background-color: #222;
+}
+
+
+/* ESSA ESTILIZAÇÃO ACIMA É DA BARRA ONDE ESTÁ O CARRINHO, POR FAVOR FAZ ALGO UM POUCO MAIS BONITO :)))) */
+.card-img-top {
+    border: 2px solid;
+    border-color: #d6d6d6;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+    height: 200px;
+  }
+
+.btn-card {
+    border-style: none;
+    background-color: rgb(229, 229, 229);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-card:hover {
+    transition: 0.3s;
+    background-color: #20cdff;
+    color: white;
 }
