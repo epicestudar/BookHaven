@@ -26,7 +26,7 @@ include('verifica_login.php');
 </head>
 
 <body>
-    <header class="container-header">
+        <header class="container-header">
         <section class="cabecalho">
             <section class="container-cabecalho">
                 <div class="icon-logo-card">
@@ -39,11 +39,8 @@ include('verifica_login.php');
                 </div>
                 <div class="cadastro">
                     <img src="img/icons/user.png" alt="conta-icon">
-                    <span>Olá, faça seu <a href="Back-end completo/index.php">login</a> ou <a href="Back-end completo/cadastro.php">cadastro</a></span>
-                </div>
-                <div class="login">
-                    <!-- <h2>Seja Bem vindo(a) <?php echo $_SESSION['nome'];?></h2>
-                    <h2><a href="logout.php">Sair</a></h2> -->
+                    <span>Olá, faça seu <a href="Back-end completo/index.php">login</a> ou <a
+                            href="Back-end completo/cadastro.php">cadastro</a></span>
                 </div>
             </section>
             <div class="link-menu">
@@ -53,30 +50,36 @@ include('verifica_login.php');
                 <a href="contato.html">Contato</a>
             </div>
         </section>
+
         <nav class="navMenu">
             <section class="categorias-container">
                 <div class="cat-links">
-                    <a href="" class="menu-categorias-link">Mais Vendidos</a>
-                   <span class="menu-categorias-link">|</span>
-                    <a href="" class="menu-categorias-link">Literatura Brasileira</a>
-                    <span class="menu-categorias-link">|</span>
-                    <a href="" class="menu-categorias-link">Literatura Infátil</a>
-                    <span class="menu-categorias-link">|</span>
-                    <a href="" class="menu-categorias-link">Romance</a>
-                    <span class="menu-categorias-link">|</span>
-                    <a href="" class="menu-categorias-link">Ficção</a>
-                    <span class="menu-categorias-link">|</span>
-                    <a href="" class="menu-categorias-link">Terror</a>
-                    <span class="menu-categorias-link">|</span>
-                    <a href="" class="menu-categorias-link">Aventura</a>
+                    <div class="hamb-menu">
+                        <img src="img/icons/hamburger.png" alt="menu hamburger">
+                    </div>
+                    <div class="link-nav-cat">
+                        <a href="" class="menu-categorias-link">Mais Vendidos</a>
+                        <span class="menu-categorias-link">|</span>
+                        <a href="" class="menu-categorias-link">Literatura Brasileira</a>
+                        <span class="menu-categorias-link">|</span>
+                        <a href="" class="menu-categorias-link">Literatura Infátil</a>
+                        <span class="menu-categorias-link">|</span>
+                        <a href="" class="menu-categorias-link">Romance</a>
+                        <span class="menu-categorias-link">|</span>
+                        <a href="" class="menu-categorias-link">Ficção</a>
+                        <span class="menu-categorias-link">|</span>
+                        <a href="" class="menu-categorias-link">Terror</a>
+                        <span class="menu-categorias-link">|</span>
+                        <a href="" class="menu-categorias-link">Aventura</a>
+                    </div>
                 </div>
                 <div class="car-fav">
                     <a href=""><i class="fa-regular fa-heart"></i></a>
 
-                   <!-- ÍCONE CARRINHO -->
+                    <!-- ÍCONE CARRINHO -->
                     <button id="openCartSideBar" class="button-addCart">
-                    <i class="ri-shopping-cart-line"></i></a>
-                </button>
+                        <i class="ri-shopping-cart-line"></i></a>
+                    </button>
 
                 </div>
             </section>
