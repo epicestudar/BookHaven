@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const productName = productCard.querySelector(".card-title").innerText;
 
            
-            const productPriceText = button.innerText.replace("Comprar", "");
+            const productPriceText = button.innerText.replace("Comprar R$", "");
             const productPrice = parseFloat(productPriceText);
 
             const productImageSrc = productCard.querySelector(".card-img-top").getAttribute("src");
