@@ -14,11 +14,8 @@ body{
 
 /* ---===<Header>===--- */
 
-<<<<<<< HEAD
 .container-header{
-=======
 .container-header {
->>>>>>> c8e36d57c2f111c8c968e346e0530c24f77b13a0
   position: fixed;
   top: 0;
   z-index: 1;
@@ -26,11 +23,10 @@ body{
   box-shadow: 10px 10px 20px rgb(74, 74, 74);
 }
 
-<<<<<<< HEAD
+
 .cabecalho{
-=======
+
 .cabecalho {
->>>>>>> c8e36d57c2f111c8c968e346e0530c24f77b13a0
   width: 100%;
   height: 17vh;
   background-color: #20cdff;
@@ -40,7 +36,7 @@ body{
   flex-direction: column;
 }
 
-<<<<<<< HEAD
+
 .cabecalho .container-cabecalho{
   display: flex;
   justify-content: space-evenly;
@@ -55,7 +51,7 @@ body{
 }
 
 .cadastro{
-=======
+
 .cabecalho .container-cabecalho {
   display: flex;
   justify-content: space-evenly;
@@ -69,64 +65,51 @@ body{
 }
 
 .cadastro {
->>>>>>> c8e36d57c2f111c8c968e346e0530c24f77b13a0
   display: flex;
   align-items: center;
 }
 
-<<<<<<< HEAD
 .cadastro img{
   width: 30px;
 }
 
 .cadastro a{
-=======
 .cadastro img {
   width: 30px;
 }
 
 .cadastro a {
->>>>>>> c8e36d57c2f111c8c968e346e0530c24f77b13a0
   text-decoration: none;
   color: rgb(255, 255, 255);
   transition: all 0.2s ease-in-out;
 }
 
-<<<<<<< HEAD
-.cadastro a:hover{
-=======
+
 .cadastro a:hover {
->>>>>>> c8e36d57c2f111c8c968e346e0530c24f77b13a0
   color: yellow;
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-.cadastro span{
-=======
 .cadastro span {
->>>>>>> c8e36d57c2f111c8c968e346e0530c24f77b13a0
   padding: 15px;
   color: white;
   font-weight: bold;
 }
 
 
-<<<<<<< HEAD
 .cabecalho .container-cabecalho .menu-pesquisa{
   width: 78vh;
   background-color:#0e9fc7;
-=======
+}
 .cabecalho .container-cabecalho .menu-pesquisa {
   width: 60vh;
   background-color: #0e9fc7;
->>>>>>> c8e36d57c2f111c8c968e346e0530c24f77b13a0
   border-radius: 15px;
   cursor: pointer;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-<<<<<<< HEAD
+}
   
 
 .button-hover-background {
@@ -412,6 +395,7 @@ footer{
   padding: 1.5rem;
   font-weight: 100;
 }
+
 @media screen and (max-width: 768px) {
   #footer_content{
       grid-template-columns: repeat(2, 1fr);
