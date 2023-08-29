@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
+
     let cartTotal = 0;
 
     addToCartButtons.forEach(button => {
@@ -36,6 +37,31 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
             `;
+
+            cartItemsList.appendChild(cartItem);
+            cartTotal += productPrice;
+            cartTotalSpan.innerText = `R$${cartTotal.toFixed(2)}`;
+
+            cartSidebar.style.right = "0";
+
+            const removeButtons = cartItemsList.querySelectorAll(".remove-from-cart");
+            removeButtons.forEach(removeButton => {
+                removeButton.addEventListener("click", function () {
+                    const itemToRemove = removeButton.closest(".cart-item");
+                    const itemPrice = parseFloat(itemToRemove.querySelector("span:nth-child(2)").innerText.replace("R$", ""));
+
+                    cartItemsList.removeChild(itemToRemove);
+                    cartTotal -= itemPrice;
+                    cartTotalSpan.innerText = `R$${cartTotal.toFixed(2)}`;
+
+                    if (cartItemsList.children.length === 0) {
+                        cartSidebar.style.right = "-300px";
+                    }
+                });
+            });
+        });
+    });
+});
 
             cartItemsList.appendChild(cartItem);
             cartTotal += productPrice;
