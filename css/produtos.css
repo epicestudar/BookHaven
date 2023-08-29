@@ -157,6 +157,7 @@ body{
     text-decoration: none;
 }
 
+
 /* ---===<Cards dos Mais Vendidos>===--- */
 .titulo-cards{
     margin-top: 5%;
@@ -667,20 +668,19 @@ footer{
 .cart-sidebar {
     position: fixed;
     top: 0;
+    margin-top: 250px;
     right: -300px;
     width: 300px;
     height: 100%;
     background-color: #f8f8f8;
     box-shadow: -5px 0 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    z-index: 9999;
     transition: right 0.3s ease-in-out;
     overflow-y: auto;
 }
 
 .cart-sidebar h2 {
-    font-size: 1.5rem;
-   margin-top: 20px;
+   margin-top: 0px;
 }
 
 .cart-items {
@@ -731,7 +731,7 @@ footer{
 /* ESSA ESTILIZAÇÃO ACIMA É DA BARRA ONDE ESTÁ O CARRINHO, POR FAVOR FAZ ALGO UM POUCO MAIS BONITO :)))) */
 .card-img-top {
     border: 2px solid;
-    border-color: #d6d6d6;
+    border-color: #e100ff;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -756,4 +756,10 @@ footer{
     transition: 0.3s;
     background-color: #20cdff;
     color: white;
+}
+
+.corFundo {
+    background-color: rgb(244, 244, 244);
+    padding-top: 5px;
+    padding-bottom: 15px;
 }
