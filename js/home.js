@@ -1,23 +1,25 @@
-// Função para adicionar ouvintes de evento aos botões de rolagem
+// Função para adicionar ouvintes de evento aos botões de rolagem - posteriormente ela é chamada para "instanciar cada novo carrosel/ permite a refatoração ao invés de ter que fazer vários codigos um pra cada carrosel"
 const addButtonListeners = (carousel, firstCardWidth) => {
     const arrowBtns = carousel.parentElement.querySelectorAll("i");
 
+    //quando o botao é clicado scroll left
     arrowBtns.forEach(btn => {
         btn.addEventListener("click", () => {
             carousel.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;
         });
     });
 };
-
+// função principal - o dom garante que o codigo seja exe quando completamente carregado evitando erros de compilação
 document.addEventListener("DOMContentLoaded", function () {
-    const carousels = document.querySelectorAll(".carouselProducts");
+    const carousels = document.querySelectorAll(".carouselProducts"); 
     const firstCardWidth = carousels[0].querySelector(".card").offsetWidth;
-
+// o laço forEach percorre as const e funções para exe em cada bloco
     carousels.forEach(carousel => {
         const carouselChildrens = [...carousel.children];
 
+        //calcula largura e altura de cada card
         let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
-
+        //cria efeito infinito de rolagem
         carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
             carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
         });
@@ -36,6 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
             // ...
         }
 
+
+
+        //garantia que o evento vai acontecer para todos os cards de carroseis que atenderem os requisitos de classes:
         document.addEventListener("DOMContentLoaded", function () {
             const wrapper = document.querySelector(".wrapper");
             const carousel = document.querySelector(".carouselProducts");
@@ -68,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 });
             }
 
-            // Adicione os ouvintes de evento a todos os botões
+            // Adicione os ouvintes de evento a todos os botões  ---> comandos e execuções + transições
             arrowBtns.forEach(addButtonListener);
 
             const dragStart = (e) => {
@@ -107,6 +112,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (window.innerWidth < 800 || !isAutoPlay) return;
                 timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 2500);
             }
+
+            //function de autoPLay ou rolagem infinita sozinha
             autoPlay();
 
             carousel.addEventListener("mousedown", dragStart);
@@ -123,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
+//sistema de carrinho de compras
 document.addEventListener("DOMContentLoaded", function () {
     const addToCartButtons = document.querySelectorAll(".button-hover-background");
     const cartItemsList = document.querySelector(".cart-items");
