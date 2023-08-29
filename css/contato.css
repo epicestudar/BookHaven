@@ -14,7 +14,6 @@ body{
 
 /* ---===<Header>===--- */
 
-.container-header{
 .container-header {
   position: fixed;
   top: 0;
@@ -23,8 +22,6 @@ body{
   box-shadow: 10px 10px 20px rgb(74, 74, 74);
 }
 
-
-.cabecalho{
 
 .cabecalho {
   width: 100%;
@@ -50,8 +47,6 @@ body{
   width: 200px;
 }
 
-.cadastro{
-
 .cabecalho .container-cabecalho {
   display: flex;
   justify-content: space-evenly;
@@ -73,7 +68,6 @@ body{
   width: 30px;
 }
 
-.cadastro a{
 .cadastro img {
   width: 30px;
 }
@@ -111,10 +105,6 @@ body{
   align-items: center;
 }
   
-
-.button-hover-background {
-    
-}
 
 .button-addCart {
  border: none;
