@@ -24,7 +24,7 @@ body{
 
 .cabecalho{
     width: 100%;
-    height: 25vh;
+    height: 17vh;
     background-color: #20cdff;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@ body{
 
 .cabecalho .container-cabecalho{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     align-items: center;  
     width: 100%;  
@@ -73,18 +73,19 @@ body{
 
 
 .cabecalho .container-cabecalho .menu-pesquisa{
-    width: 65vh;
+    width: 78vh;
     background-color:#0e9fc7;
     border-radius: 15px;
     cursor: pointer;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .cabecalho .container-cabecalho .menu-pesquisa input{
     padding: 5px;
-    width: 86%;
+    width: 94%;
     border: 0px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -92,7 +93,8 @@ body{
 
 .cabecalho .container-cabecalho .menu-pesquisa i{
     padding: 5px;
-    padding-right: 25px;
+    padding-right: 20px;
+    padding-left: 10px;
 }
 
 .cabecalho .link-menu{
