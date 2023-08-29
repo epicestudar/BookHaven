@@ -335,7 +335,7 @@ body{
      position: relative; 
   }
   .wrapper i {
-    top: 250%;
+    top: 50%;
     height: 50px;
     width: 50px;
     cursor: pointer;
@@ -403,12 +403,12 @@ body{
   .card2 h3{
     color: #fff;
   }
-  .wrapper #left1{
-    left: 200px;
+  .wrapper i:first-child{
+    left: -22px;
   }
   
   .wrapper i:last-child{
-    right: 340px;
+    right: -22px;
   }
   .wrapper .carouselProducts{
     display: grid;
@@ -509,11 +509,11 @@ body{
     margin-bottom: 5%;
   }
  
-  /* .containerProducts{
+   .containerProducts{
     display: flex;
     justify-content: center;
     align-items: center;
-  } */
+  } 
   
   @media screen and (max-width: 900px) {
     .wrapper .carouselProducts {
