@@ -27,7 +27,7 @@ body{
 
 .cabecalho{
     width: 100%;
-    height: 25vh;
+    height: 17vh;
     background-color: #20cdff;
     display: flex;
     justify-content: center;
@@ -195,11 +195,12 @@ body{
   box-sizing: border-box;
   transition: right 0.3s ease;
   max-height: 100%;
+  /* z-index: 9999; */
   overflow-y: auto;
 }
 
 .cart-sidebar h2 {
-  margin-top: 160px;
+  margin-top: 200px;
 }
 
 .cart-items {
@@ -530,6 +531,9 @@ body{
     margin-top: 20%;
     text-align: center;
     font-size: 2em;
+}
+.ccc {
+  background-color: gainsboro;
 }
 .recomendacao {
     width: 100%;
