@@ -22,7 +22,6 @@ body{
   box-shadow: 10px 10px 20px rgb(74, 74, 74);
 }
 
-
 .cabecalho {
   width: 100%;
   height: 17vh;
@@ -31,20 +30,6 @@ body{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-
-.cabecalho .container-cabecalho{
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  align-items: center;  
-  width: 100%;  
-}
-
-.cabecalho .container-cabecalho .icon-logo-card img
-{
-  width: 200px;
 }
 
 .cabecalho .container-cabecalho {
@@ -64,10 +49,6 @@ body{
   align-items: center;
 }
 
-.cadastro img{
-  width: 30px;
-}
-
 .cadastro img {
   width: 30px;
 }
@@ -77,7 +58,6 @@ body{
   color: rgb(255, 255, 255);
   transition: all 0.2s ease-in-out;
 }
-
 
 .cadastro a:hover {
   color: yellow;
@@ -91,10 +71,6 @@ body{
 }
 
 
-.cabecalho .container-cabecalho .menu-pesquisa{
-  width: 78vh;
-  background-color:#0e9fc7;
-}
 .cabecalho .container-cabecalho .menu-pesquisa {
   width: 60vh;
   background-color: #0e9fc7;
@@ -103,7 +79,134 @@ body{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+
 }
+
+.cabecalho .container-cabecalho .menu-pesquisa input {
+  padding: 5px;
+  width: 85%;
+  border: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-right: 55px;
+}
+
+.cabecalho .container-cabecalho .menu-pesquisa i {
+  padding: 5px;
+  padding-right: 25px;
+}
+
+.cabecalho .link-menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cabecalho .link-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  margin-top: 15px;
+}
+
+.cabecalho .link-menu a:hover {
+  color: yellow;
+}
+
+.navMenu {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  background-color: aliceblue;
+  font-weight: 400;
+}
+
+.categorias-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.car-fav {
+  padding: 10px;
+}
+
+.car-fav .fa-heart{
+  color: black;
+}
+
+.car-fav i {
+  padding: 10px;
+  width: 40px;
+}
+
+.navMenu .cat-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navMenu .cat-links .link-nav-cat a {
+  padding: 10px;
+  height: 100%;
+  color: black;
+  transition: all 200ms ease-in-out;
+}
+
+.navMenu .cat-links .link-nav-cat a:hover {
+  background-color: rgb(229, 229, 229);
+  text-decoration: none;
+}
+
+.hamb-menu img {
+  width: 35px;
+  padding: 5px;
+  display: none;
+  margin-left: 10px;
+}
+
+/* Responsividade do cabeçalho */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cabecalho .container-cabecalho .icon-logo-card img {
+    width: 160px;
+  }
+
+  .cabecalho .link-menu a{
+    margin-top: 0px;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .cabecalho .container-cabecalho .icon-logo-card img {
+    width: 150px;
+  }
+
+  .cabecalho .link-menu a{
+    margin-top: -10px;
+  }
+
+  .navMenu .link-nav-cat{
+    display: none;
+  }
+
+  .hamb-menu img{
+    display: block;
+  }
+  
+  .menu-pesquisa{
+    width: 70vh;
+  }
+
+  .menu-pesquisa input{
+    margin-right: 0px;
+  }
   
 
 .button-addCart {
@@ -119,6 +222,7 @@ body{
 .carousel {
   display: flex;
   overflow-x: auto;
+}
 }
 
 
